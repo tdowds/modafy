@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		695322BE197434CB00BDE8E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695322BD197434CB00BDE8E0 /* Foundation.framework */; };
+		695322C0197434CB00BDE8E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695322BF197434CB00BDE8E0 /* CoreGraphics.framework */; };
+		695322C2197434CB00BDE8E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695322C1197434CB00BDE8E0 /* UIKit.framework */; };
+		695322C8197434CB00BDE8E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695322C6197434CB00BDE8E0 /* InfoPlist.strings */; };
+		695322CA197434CB00BDE8E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695322C9197434CB00BDE8E0 /* main.m */; };
+		695322CE197434CB00BDE8E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695322CD197434CB00BDE8E0 /* AppDelegate.m */; };
+		695322D0197434CB00BDE8E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695322CF197434CB00BDE8E0 /* Images.xcassets */; };
+		695322D7197434CB00BDE8E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695322D6197434CB00BDE8E0 /* XCTest.framework */; };
+		695322D8197434CB00BDE8E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695322BD197434CB00BDE8E0 /* Foundation.framework */; };
+		695322D9197434CB00BDE8E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695322C1197434CB00BDE8E0 /* UIKit.framework */; };
+		695322E1197434CB00BDE8E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695322DF197434CB00BDE8E0 /* InfoPlist.strings */; };
+		695322E3197434CB00BDE8E0 /* ModafyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695322E2197434CB00BDE8E0 /* ModafyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		695322DA197434CB00BDE8E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 695322B2197434CB00BDE8E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 695322B9197434CB00BDE8E0;
+			remoteInfo = Modafy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		695322BA197434CB00BDE8E0 /* Modafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		695322BD197434CB00BDE8E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		695322BF197434CB00BDE8E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		695322C1197434CB00BDE8E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		695322C5197434CB00BDE8E0 /* Modafy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Modafy-Info.plist"; sourceTree = "<group>"; };
+		695322C7197434CB00BDE8E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		695322C9197434CB00BDE8E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		695322CB197434CB00BDE8E0 /* Modafy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Modafy-Prefix.pch"; sourceTree = "<group>"; };
+		695322CC197434CB00BDE8E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		695322CD197434CB00BDE8E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		695322CF197434CB00BDE8E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		695322D5197434CB00BDE8E0 /* ModafyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModafyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		695322D6197434CB00BDE8E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		695322DE197434CB00BDE8E0 /* ModafyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModafyTests-Info.plist"; sourceTree = "<group>"; };
+		695322E0197434CB00BDE8E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		695322E2197434CB00BDE8E0 /* ModafyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModafyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		695322B7197434CB00BDE8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695322C0197434CB00BDE8E0 /* CoreGraphics.framework in Frameworks */,
+				695322C2197434CB00BDE8E0 /* UIKit.framework in Frameworks */,
+				695322BE197434CB00BDE8E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695322D2197434CB00BDE8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695322D7197434CB00BDE8E0 /* XCTest.framework in Frameworks */,
+				695322D9197434CB00BDE8E0 /* UIKit.framework in Frameworks */,
+				695322D8197434CB00BDE8E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		695322B1197434CB00BDE8E0 = {
+			isa = PBXGroup;
+			children = (
+				695322C3197434CB00BDE8E0 /* Modafy */,
+				695322DC197434CB00BDE8E0 /* ModafyTests */,
+				695322BC197434CB00BDE8E0 /* Frameworks */,
+				695322BB197434CB00BDE8E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		695322BB197434CB00BDE8E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				695322BA197434CB00BDE8E0 /* Modafy.app */,
+				695322D5197434CB00BDE8E0 /* ModafyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		695322BC197434CB00BDE8E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695322BD197434CB00BDE8E0 /* Foundation.framework */,
+				695322BF197434CB00BDE8E0 /* CoreGraphics.framework */,
+				695322C1197434CB00BDE8E0 /* UIKit.framework */,
+				695322D6197434CB00BDE8E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		695322C3197434CB00BDE8E0 /* Modafy */ = {
+			isa = PBXGroup;
+			children = (
+				695322CC197434CB00BDE8E0 /* AppDelegate.h */,
+				695322CD197434CB00BDE8E0 /* AppDelegate.m */,
+				695322CF197434CB00BDE8E0 /* Images.xcassets */,
+				695322C4197434CB00BDE8E0 /* Supporting Files */,
+			);
+			path = Modafy;
+			sourceTree = "<group>";
+		};
+		695322C4197434CB00BDE8E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				695322C5197434CB00BDE8E0 /* Modafy-Info.plist */,
+				695322C6197434CB00BDE8E0 /* InfoPlist.strings */,
+				695322C9197434CB00BDE8E0 /* main.m */,
+				695322CB197434CB00BDE8E0 /* Modafy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		695322DC197434CB00BDE8E0 /* ModafyTests */ = {
+			isa = PBXGroup;
+			children = (
+				695322E2197434CB00BDE8E0 /* ModafyTests.m */,
+				695322DD197434CB00BDE8E0 /* Supporting Files */,
+			);
+			path = ModafyTests;
+			sourceTree = "<group>";
+		};
+		695322DD197434CB00BDE8E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				695322DE197434CB00BDE8E0 /* ModafyTests-Info.plist */,
+				695322DF197434CB00BDE8E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		695322B9197434CB00BDE8E0 /* Modafy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695322E6197434CB00BDE8E0 /* Build configuration list for PBXNativeTarget "Modafy" */;
+			buildPhases = (
+				695322B6197434CB00BDE8E0 /* Sources */,
+				695322B7197434CB00BDE8E0 /* Frameworks */,
+				695322B8197434CB00BDE8E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Modafy;
+			productName = Modafy;
+			productReference = 695322BA197434CB00BDE8E0 /* Modafy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		695322D4197434CB00BDE8E0 /* ModafyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695322E9197434CB00BDE8E0 /* Build configuration list for PBXNativeTarget "ModafyTests" */;
+			buildPhases = (
+				695322D1197434CB00BDE8E0 /* Sources */,
+				695322D2197434CB00BDE8E0 /* Frameworks */,
+				695322D3197434CB00BDE8E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				695322DB197434CB00BDE8E0 /* PBXTargetDependency */,
+			);
+			name = ModafyTests;
+			productName = ModafyTests;
+			productReference = 695322D5197434CB00BDE8E0 /* ModafyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		695322B2197434CB00BDE8E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Modafy;
+				TargetAttributes = {
+					695322D4197434CB00BDE8E0 = {
+						TestTargetID = 695322B9197434CB00BDE8E0;
+					};
+				};
+			};
+			buildConfigurationList = 695322B5197434CB00BDE8E0 /* Build configuration list for PBXProject "Modafy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 695322B1197434CB00BDE8E0;
+			productRefGroup = 695322BB197434CB00BDE8E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				695322B9197434CB00BDE8E0 /* Modafy */,
+				695322D4197434CB00BDE8E0 /* ModafyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		695322B8197434CB00BDE8E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695322C8197434CB00BDE8E0 /* InfoPlist.strings in Resources */,
+				695322D0197434CB00BDE8E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695322D3197434CB00BDE8E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695322E1197434CB00BDE8E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		695322B6197434CB00BDE8E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695322CE197434CB00BDE8E0 /* AppDelegate.m in Sources */,
+				695322CA197434CB00BDE8E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695322D1197434CB00BDE8E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695322E3197434CB00BDE8E0 /* ModafyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		695322DB197434CB00BDE8E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 695322B9197434CB00BDE8E0 /* Modafy */;
+			targetProxy = 695322DA197434CB00BDE8E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		695322C6197434CB00BDE8E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695322C7197434CB00BDE8E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		695322DF197434CB00BDE8E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695322E0197434CB00BDE8E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		695322E4197434CB00BDE8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		695322E5197434CB00BDE8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		695322E7197434CB00BDE8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modafy/Modafy-Prefix.pch";
+				INFOPLIST_FILE = "Modafy/Modafy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		695322E8197434CB00BDE8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modafy/Modafy-Prefix.pch";
+				INFOPLIST_FILE = "Modafy/Modafy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		695322EA197434CB00BDE8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Modafy.app/Modafy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modafy/Modafy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModafyTests/ModafyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		695322EB197434CB00BDE8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Modafy.app/Modafy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modafy/Modafy-Prefix.pch";
+				INFOPLIST_FILE = "ModafyTests/ModafyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		695322B5197434CB00BDE8E0 /* Build configuration list for PBXProject "Modafy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695322E4197434CB00BDE8E0 /* Debug */,
+				695322E5197434CB00BDE8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		695322E6197434CB00BDE8E0 /* Build configuration list for PBXNativeTarget "Modafy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695322E7197434CB00BDE8E0 /* Debug */,
+				695322E8197434CB00BDE8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		695322E9197434CB00BDE8E0 /* Build configuration list for PBXNativeTarget "ModafyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695322EA197434CB00BDE8E0 /* Debug */,
+				695322EB197434CB00BDE8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 695322B2197434CB00BDE8E0 /* Project object */;
+}
