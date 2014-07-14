@@ -19,6 +19,7 @@
 		695322D9197434CB00BDE8E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695322C1197434CB00BDE8E0 /* UIKit.framework */; };
 		695322E1197434CB00BDE8E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695322DF197434CB00BDE8E0 /* InfoPlist.strings */; };
 		695322E3197434CB00BDE8E0 /* ModafyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695322E2197434CB00BDE8E0 /* ModafyTests.m */; };
+		697033AC19746A4E004F15B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697033AB19746A4E004F15B9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		695322DE197434CB00BDE8E0 /* ModafyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModafyTests-Info.plist"; sourceTree = "<group>"; };
 		695322E0197434CB00BDE8E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		695322E2197434CB00BDE8E0 /* ModafyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModafyTests.m; sourceTree = "<group>"; };
+		697033AB19746A4E004F15B9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +109,7 @@
 		695322C3197434CB00BDE8E0 /* Modafy */ = {
 			isa = PBXGroup;
 			children = (
-				695322CC197434CB00BDE8E0 /* AppDelegate.h */,
-				695322CD197434CB00BDE8E0 /* AppDelegate.m */,
+				697033AB19746A4E004F15B9 /* Main.storyboard */,
 				695322CF197434CB00BDE8E0 /* Images.xcassets */,
 				695322C4197434CB00BDE8E0 /* Supporting Files */,
 			);
@@ -118,6 +119,8 @@
 		695322C4197434CB00BDE8E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				695322CC197434CB00BDE8E0 /* AppDelegate.h */,
+				695322CD197434CB00BDE8E0 /* AppDelegate.m */,
 				695322C5197434CB00BDE8E0 /* Modafy-Info.plist */,
 				695322C6197434CB00BDE8E0 /* InfoPlist.strings */,
 				695322C9197434CB00BDE8E0 /* main.m */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697033AC19746A4E004F15B9 /* Main.storyboard in Resources */,
 				695322C8197434CB00BDE8E0 /* InfoPlist.strings in Resources */,
 				695322D0197434CB00BDE8E0 /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				695322E8197434CB00BDE8E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		695322E9197434CB00BDE8E0 /* Build configuration list for PBXNativeTarget "ModafyTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				695322EB197434CB00BDE8E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
