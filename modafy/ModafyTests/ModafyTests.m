@@ -2,7 +2,7 @@
 //  ModafyTests.m
 //  ModafyTests
 //
-//  Created by Trevor Dowds on 7/14/14.
+//  Created by Trevor Dowds on 7/15/14.
 //  Copyright (c) 2014 Modafy. All rights reserved.
 //
 

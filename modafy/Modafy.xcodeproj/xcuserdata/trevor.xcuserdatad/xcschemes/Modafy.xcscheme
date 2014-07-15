@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "695322B9197434CB00BDE8E0"
+               BlueprintIdentifier = "69CDABB919752CEC00FFE3D3"
                BuildableName = "Modafy.app"
                BlueprintName = "Modafy"
                ReferencedContainer = "container:Modafy.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "695322D4197434CB00BDE8E0"
+               BlueprintIdentifier = "69CDABDA19752CEC00FFE3D3"
                BuildableName = "ModafyTests.xctest"
                BlueprintName = "ModafyTests"
                ReferencedContainer = "container:Modafy.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "695322B9197434CB00BDE8E0"
+            BlueprintIdentifier = "69CDABB919752CEC00FFE3D3"
             BuildableName = "Modafy.app"
             BlueprintName = "Modafy"
             ReferencedContainer = "container:Modafy.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "695322B9197434CB00BDE8E0"
+            BlueprintIdentifier = "69CDABB919752CEC00FFE3D3"
             BuildableName = "Modafy.app"
             BlueprintName = "Modafy"
             ReferencedContainer = "container:Modafy.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "695322B9197434CB00BDE8E0"
+            BlueprintIdentifier = "69CDABB919752CEC00FFE3D3"
             BuildableName = "Modafy.app"
             BlueprintName = "Modafy"
             ReferencedContainer = "container:Modafy.xcodeproj">
