@@ -9,6 +9,7 @@
 #import "ModafyViewController.h"
 
 @interface ModafyViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.image setImage:[UIImage imageNamed:@"blackt"]];
 }
 
 - (void)didReceiveMemoryWarning
