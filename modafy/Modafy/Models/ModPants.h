@@ -9,5 +9,13 @@
 #import "ModClothing.h"
 
 @interface ModPants : ModClothing
+@property NSUInteger length;
+@property NSUInteger width;
+- (instancetype)initWithColor:(NSString *)color
+                         size:(NSString *)size
+                       length:(NSUInteger)length
+                        width:(NSUInteger)width
+                         type:(NSString *)type
+                        image:(UIImage *)image;
 
 @end
