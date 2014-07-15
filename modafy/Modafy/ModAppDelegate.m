@@ -1,14 +1,14 @@
 //
-//  ModafyAppDelegate.m
-//  Modafy
+//  ModAppDelegate.m
+//  modafy
 //
 //  Created by Trevor Dowds on 7/15/14.
 //  Copyright (c) 2014 Modafy. All rights reserved.
 //
 
-#import "ModafyAppDelegate.h"
+#import "ModAppDelegate.h"
 
-@implementation ModafyAppDelegate
+@implementation ModAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

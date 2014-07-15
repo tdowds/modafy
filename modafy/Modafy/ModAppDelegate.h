@@ -1,6 +1,6 @@
 //
-//  ModafyAppDelegate.h
-//  Modafy
+//  ModAppDelegate.h
+//  modafy
 //
 //  Created by Trevor Dowds on 7/15/14.
 //  Copyright (c) 2014 Modafy. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModafyAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ModAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

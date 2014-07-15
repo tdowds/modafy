@@ -7,147 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69CDABBE19752CEC00FFE3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CDABBD19752CEC00FFE3D3 /* Foundation.framework */; };
-		69CDABC019752CEC00FFE3D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CDABBF19752CEC00FFE3D3 /* CoreGraphics.framework */; };
-		69CDABC219752CEC00FFE3D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CDABC119752CEC00FFE3D3 /* UIKit.framework */; };
-		69CDABC819752CEC00FFE3D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69CDABC619752CEC00FFE3D3 /* InfoPlist.strings */; };
-		69CDABCA19752CEC00FFE3D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CDABC919752CEC00FFE3D3 /* main.m */; };
-		69CDABCE19752CEC00FFE3D3 /* ModafyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CDABCD19752CEC00FFE3D3 /* ModafyAppDelegate.m */; };
-		69CDABD119752CEC00FFE3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CDABCF19752CEC00FFE3D3 /* Main.storyboard */; };
-		69CDABD419752CEC00FFE3D3 /* ModafyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CDABD319752CEC00FFE3D3 /* ModafyViewController.m */; };
-		69CDABD619752CEC00FFE3D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CDABD519752CEC00FFE3D3 /* Images.xcassets */; };
-		69CDABDD19752CEC00FFE3D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CDABDC19752CEC00FFE3D3 /* XCTest.framework */; };
-		69CDABDE19752CEC00FFE3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CDABBD19752CEC00FFE3D3 /* Foundation.framework */; };
-		69CDABDF19752CEC00FFE3D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CDABC119752CEC00FFE3D3 /* UIKit.framework */; };
-		69CDABE719752CEC00FFE3D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69CDABE519752CEC00FFE3D3 /* InfoPlist.strings */; };
-		69CDABE919752CEC00FFE3D3 /* ModafyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CDABE819752CEC00FFE3D3 /* ModafyTests.m */; };
+		691852DE197542470098974F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DD197542470098974F /* Foundation.framework */; };
+		691852E0197542470098974F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DF197542470098974F /* CoreGraphics.framework */; };
+		691852E2197542470098974F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852E1197542470098974F /* UIKit.framework */; };
+		691852E8197542470098974F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 691852E6197542470098974F /* InfoPlist.strings */; };
+		691852EA197542470098974F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691852E9197542470098974F /* main.m */; };
+		691852EE197542470098974F /* ModAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 691852ED197542470098974F /* ModAppDelegate.m */; };
+		691852F1197542470098974F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691852EF197542470098974F /* Main.storyboard */; };
+		691852F4197542470098974F /* ModViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691852F3197542470098974F /* ModViewController.m */; };
+		691852F6197542470098974F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691852F5197542470098974F /* Images.xcassets */; };
+		691852FD197542470098974F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852FC197542470098974F /* XCTest.framework */; };
+		691852FE197542470098974F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DD197542470098974F /* Foundation.framework */; };
+		691852FF197542470098974F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852E1197542470098974F /* UIKit.framework */; };
+		69185307197542470098974F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69185305197542470098974F /* InfoPlist.strings */; };
+		69185309197542470098974F /* modafyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69185308197542470098974F /* modafyTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69CDABE019752CEC00FFE3D3 /* PBXContainerItemProxy */ = {
+		69185300197542470098974F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 69CDABB219752CEC00FFE3D3 /* Project object */;
+			containerPortal = 691852D2197542470098974F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 69CDABB919752CEC00FFE3D3;
-			remoteInfo = Modafy;
+			remoteGlobalIDString = 691852D9197542470098974F;
+			remoteInfo = modafy;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		69CDABBA19752CEC00FFE3D3 /* Modafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69CDABBD19752CEC00FFE3D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		69CDABBF19752CEC00FFE3D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		69CDABC119752CEC00FFE3D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		69CDABC519752CEC00FFE3D3 /* Modafy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Modafy-Info.plist"; sourceTree = "<group>"; };
-		69CDABC719752CEC00FFE3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		69CDABC919752CEC00FFE3D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69CDABCB19752CEC00FFE3D3 /* Modafy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Modafy-Prefix.pch"; sourceTree = "<group>"; };
-		69CDABCC19752CEC00FFE3D3 /* ModafyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModafyAppDelegate.h; sourceTree = "<group>"; };
-		69CDABCD19752CEC00FFE3D3 /* ModafyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModafyAppDelegate.m; sourceTree = "<group>"; };
-		69CDABD019752CEC00FFE3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		69CDABD219752CEC00FFE3D3 /* ModafyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModafyViewController.h; sourceTree = "<group>"; };
-		69CDABD319752CEC00FFE3D3 /* ModafyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModafyViewController.m; sourceTree = "<group>"; };
-		69CDABD519752CEC00FFE3D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		69CDABDB19752CEC00FFE3D3 /* ModafyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModafyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69CDABDC19752CEC00FFE3D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		69CDABE419752CEC00FFE3D3 /* ModafyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModafyTests-Info.plist"; sourceTree = "<group>"; };
-		69CDABE619752CEC00FFE3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		69CDABE819752CEC00FFE3D3 /* ModafyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModafyTests.m; sourceTree = "<group>"; };
+		691852DA197542470098974F /* modafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		691852DD197542470098974F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		691852DF197542470098974F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		691852E1197542470098974F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		691852E5197542470098974F /* modafy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "modafy-Info.plist"; sourceTree = "<group>"; };
+		691852E7197542470098974F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		691852E9197542470098974F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		691852EB197542470098974F /* modafy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "modafy-Prefix.pch"; sourceTree = "<group>"; };
+		691852EC197542470098974F /* ModAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModAppDelegate.h; sourceTree = "<group>"; };
+		691852ED197542470098974F /* ModAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModAppDelegate.m; sourceTree = "<group>"; };
+		691852F0197542470098974F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		691852F2197542470098974F /* ModViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModViewController.h; sourceTree = "<group>"; };
+		691852F3197542470098974F /* ModViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModViewController.m; sourceTree = "<group>"; };
+		691852F5197542470098974F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		691852FB197542470098974F /* modafyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modafyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		691852FC197542470098974F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69185304197542470098974F /* modafyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "modafyTests-Info.plist"; sourceTree = "<group>"; };
+		69185306197542470098974F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69185308197542470098974F /* modafyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modafyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		69CDABB719752CEC00FFE3D3 /* Frameworks */ = {
+		691852D7197542470098974F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CDABC019752CEC00FFE3D3 /* CoreGraphics.framework in Frameworks */,
-				69CDABC219752CEC00FFE3D3 /* UIKit.framework in Frameworks */,
-				69CDABBE19752CEC00FFE3D3 /* Foundation.framework in Frameworks */,
+				691852E0197542470098974F /* CoreGraphics.framework in Frameworks */,
+				691852E2197542470098974F /* UIKit.framework in Frameworks */,
+				691852DE197542470098974F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69CDABD819752CEC00FFE3D3 /* Frameworks */ = {
+		691852F8197542470098974F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CDABDD19752CEC00FFE3D3 /* XCTest.framework in Frameworks */,
-				69CDABDF19752CEC00FFE3D3 /* UIKit.framework in Frameworks */,
-				69CDABDE19752CEC00FFE3D3 /* Foundation.framework in Frameworks */,
+				691852FD197542470098974F /* XCTest.framework in Frameworks */,
+				691852FF197542470098974F /* UIKit.framework in Frameworks */,
+				691852FE197542470098974F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		69CDABB119752CEC00FFE3D3 = {
+		691852D1197542470098974F = {
 			isa = PBXGroup;
 			children = (
-				69CDABC319752CEC00FFE3D3 /* Modafy */,
-				69CDABE219752CEC00FFE3D3 /* ModafyTests */,
-				69CDABBC19752CEC00FFE3D3 /* Frameworks */,
-				69CDABBB19752CEC00FFE3D3 /* Products */,
+				691852E3197542470098974F /* modafy */,
+				69185302197542470098974F /* modafyTests */,
+				691852DC197542470098974F /* Frameworks */,
+				691852DB197542470098974F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		69CDABBB19752CEC00FFE3D3 /* Products */ = {
+		691852DB197542470098974F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69CDABBA19752CEC00FFE3D3 /* Modafy.app */,
-				69CDABDB19752CEC00FFE3D3 /* ModafyTests.xctest */,
+				691852DA197542470098974F /* modafy.app */,
+				691852FB197542470098974F /* modafyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69CDABBC19752CEC00FFE3D3 /* Frameworks */ = {
+		691852DC197542470098974F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69CDABBD19752CEC00FFE3D3 /* Foundation.framework */,
-				69CDABBF19752CEC00FFE3D3 /* CoreGraphics.framework */,
-				69CDABC119752CEC00FFE3D3 /* UIKit.framework */,
-				69CDABDC19752CEC00FFE3D3 /* XCTest.framework */,
+				691852DD197542470098974F /* Foundation.framework */,
+				691852DF197542470098974F /* CoreGraphics.framework */,
+				691852E1197542470098974F /* UIKit.framework */,
+				691852FC197542470098974F /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		69CDABC319752CEC00FFE3D3 /* Modafy */ = {
+		691852E3197542470098974F /* modafy */ = {
 			isa = PBXGroup;
 			children = (
-				69CDABCC19752CEC00FFE3D3 /* ModafyAppDelegate.h */,
-				69CDABCD19752CEC00FFE3D3 /* ModafyAppDelegate.m */,
-				69CDABCF19752CEC00FFE3D3 /* Main.storyboard */,
-				69CDABD219752CEC00FFE3D3 /* ModafyViewController.h */,
-				69CDABD319752CEC00FFE3D3 /* ModafyViewController.m */,
-				69CDABD519752CEC00FFE3D3 /* Images.xcassets */,
-				69CDABC419752CEC00FFE3D3 /* Supporting Files */,
+				691852EC197542470098974F /* ModAppDelegate.h */,
+				691852ED197542470098974F /* ModAppDelegate.m */,
+				691852EF197542470098974F /* Main.storyboard */,
+				691852F2197542470098974F /* ModViewController.h */,
+				691852F3197542470098974F /* ModViewController.m */,
+				691852F5197542470098974F /* Images.xcassets */,
+				691852E4197542470098974F /* Supporting Files */,
 			);
-			path = Modafy;
+			path = modafy;
 			sourceTree = "<group>";
 		};
-		69CDABC419752CEC00FFE3D3 /* Supporting Files */ = {
+		691852E4197542470098974F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				69CDABC519752CEC00FFE3D3 /* Modafy-Info.plist */,
-				69CDABC619752CEC00FFE3D3 /* InfoPlist.strings */,
-				69CDABC919752CEC00FFE3D3 /* main.m */,
-				69CDABCB19752CEC00FFE3D3 /* Modafy-Prefix.pch */,
+				691852E5197542470098974F /* modafy-Info.plist */,
+				691852E6197542470098974F /* InfoPlist.strings */,
+				691852E9197542470098974F /* main.m */,
+				691852EB197542470098974F /* modafy-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		69CDABE219752CEC00FFE3D3 /* ModafyTests */ = {
+		69185302197542470098974F /* modafyTests */ = {
 			isa = PBXGroup;
 			children = (
-				69CDABE819752CEC00FFE3D3 /* ModafyTests.m */,
-				69CDABE319752CEC00FFE3D3 /* Supporting Files */,
+				69185308197542470098974F /* modafyTests.m */,
+				69185303197542470098974F /* Supporting Files */,
 			);
-			path = ModafyTests;
+			path = modafyTests;
 			sourceTree = "<group>";
 		};
-		69CDABE319752CEC00FFE3D3 /* Supporting Files */ = {
+		69185303197542470098974F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				69CDABE419752CEC00FFE3D3 /* ModafyTests-Info.plist */,
-				69CDABE519752CEC00FFE3D3 /* InfoPlist.strings */,
+				69185304197542470098974F /* modafyTests-Info.plist */,
+				69185305197542470098974F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,57 +155,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69CDABB919752CEC00FFE3D3 /* Modafy */ = {
+		691852D9197542470098974F /* modafy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69CDABEC19752CEC00FFE3D3 /* Build configuration list for PBXNativeTarget "Modafy" */;
+			buildConfigurationList = 6918530C197542470098974F /* Build configuration list for PBXNativeTarget "modafy" */;
 			buildPhases = (
-				69CDABB619752CEC00FFE3D3 /* Sources */,
-				69CDABB719752CEC00FFE3D3 /* Frameworks */,
-				69CDABB819752CEC00FFE3D3 /* Resources */,
+				691852D6197542470098974F /* Sources */,
+				691852D7197542470098974F /* Frameworks */,
+				691852D8197542470098974F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Modafy;
-			productName = Modafy;
-			productReference = 69CDABBA19752CEC00FFE3D3 /* Modafy.app */;
+			name = modafy;
+			productName = modafy;
+			productReference = 691852DA197542470098974F /* modafy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		69CDABDA19752CEC00FFE3D3 /* ModafyTests */ = {
+		691852FA197542470098974F /* modafyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69CDABEF19752CEC00FFE3D3 /* Build configuration list for PBXNativeTarget "ModafyTests" */;
+			buildConfigurationList = 6918530F197542470098974F /* Build configuration list for PBXNativeTarget "modafyTests" */;
 			buildPhases = (
-				69CDABD719752CEC00FFE3D3 /* Sources */,
-				69CDABD819752CEC00FFE3D3 /* Frameworks */,
-				69CDABD919752CEC00FFE3D3 /* Resources */,
+				691852F7197542470098974F /* Sources */,
+				691852F8197542470098974F /* Frameworks */,
+				691852F9197542470098974F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				69CDABE119752CEC00FFE3D3 /* PBXTargetDependency */,
+				69185301197542470098974F /* PBXTargetDependency */,
 			);
-			name = ModafyTests;
-			productName = ModafyTests;
-			productReference = 69CDABDB19752CEC00FFE3D3 /* ModafyTests.xctest */;
+			name = modafyTests;
+			productName = modafyTests;
+			productReference = 691852FB197542470098974F /* modafyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		69CDABB219752CEC00FFE3D3 /* Project object */ = {
+		691852D2197542470098974F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = Modafy;
+				CLASSPREFIX = Mod;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Modafy;
 				TargetAttributes = {
-					69CDABDA19752CEC00FFE3D3 = {
-						TestTargetID = 69CDABB919752CEC00FFE3D3;
+					691852FA197542470098974F = {
+						TestTargetID = 691852D9197542470098974F;
 					};
 				};
 			};
-			buildConfigurationList = 69CDABB519752CEC00FFE3D3 /* Build configuration list for PBXProject "Modafy" */;
+			buildConfigurationList = 691852D5197542470098974F /* Build configuration list for PBXProject "modafy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,88 +213,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 69CDABB119752CEC00FFE3D3;
-			productRefGroup = 69CDABBB19752CEC00FFE3D3 /* Products */;
+			mainGroup = 691852D1197542470098974F;
+			productRefGroup = 691852DB197542470098974F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69CDABB919752CEC00FFE3D3 /* Modafy */,
-				69CDABDA19752CEC00FFE3D3 /* ModafyTests */,
+				691852D9197542470098974F /* modafy */,
+				691852FA197542470098974F /* modafyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		69CDABB819752CEC00FFE3D3 /* Resources */ = {
+		691852D8197542470098974F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CDABD619752CEC00FFE3D3 /* Images.xcassets in Resources */,
-				69CDABC819752CEC00FFE3D3 /* InfoPlist.strings in Resources */,
-				69CDABD119752CEC00FFE3D3 /* Main.storyboard in Resources */,
+				691852F6197542470098974F /* Images.xcassets in Resources */,
+				691852E8197542470098974F /* InfoPlist.strings in Resources */,
+				691852F1197542470098974F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69CDABD919752CEC00FFE3D3 /* Resources */ = {
+		691852F9197542470098974F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CDABE719752CEC00FFE3D3 /* InfoPlist.strings in Resources */,
+				69185307197542470098974F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69CDABB619752CEC00FFE3D3 /* Sources */ = {
+		691852D6197542470098974F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CDABCE19752CEC00FFE3D3 /* ModafyAppDelegate.m in Sources */,
-				69CDABCA19752CEC00FFE3D3 /* main.m in Sources */,
-				69CDABD419752CEC00FFE3D3 /* ModafyViewController.m in Sources */,
+				691852EA197542470098974F /* main.m in Sources */,
+				691852F4197542470098974F /* ModViewController.m in Sources */,
+				691852EE197542470098974F /* ModAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69CDABD719752CEC00FFE3D3 /* Sources */ = {
+		691852F7197542470098974F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CDABE919752CEC00FFE3D3 /* ModafyTests.m in Sources */,
+				69185309197542470098974F /* modafyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		69CDABE119752CEC00FFE3D3 /* PBXTargetDependency */ = {
+		69185301197542470098974F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69CDABB919752CEC00FFE3D3 /* Modafy */;
-			targetProxy = 69CDABE019752CEC00FFE3D3 /* PBXContainerItemProxy */;
+			target = 691852D9197542470098974F /* modafy */;
+			targetProxy = 69185300197542470098974F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		69CDABC619752CEC00FFE3D3 /* InfoPlist.strings */ = {
+		691852E6197542470098974F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				69CDABC719752CEC00FFE3D3 /* en */,
+				691852E7197542470098974F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		69CDABCF19752CEC00FFE3D3 /* Main.storyboard */ = {
+		691852EF197542470098974F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				69CDABD019752CEC00FFE3D3 /* Base */,
+				691852F0197542470098974F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		69CDABE519752CEC00FFE3D3 /* InfoPlist.strings */ = {
+		69185305197542470098974F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				69CDABE619752CEC00FFE3D3 /* en */,
+				69185306197542470098974F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -302,7 +302,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		69CDABEA19752CEC00FFE3D3 /* Debug */ = {
+		6918530A197542470098974F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		69CDABEB19752CEC00FFE3D3 /* Release */ = {
+		6918530B197542470098974F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,66 +372,66 @@
 			};
 			name = Release;
 		};
-		69CDABED19752CEC00FFE3D3 /* Debug */ = {
+		6918530D197542470098974F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Modafy/Modafy-Prefix.pch";
-				INFOPLIST_FILE = "Modafy/Modafy-Info.plist";
+				GCC_PREFIX_HEADER = "modafy/modafy-Prefix.pch";
+				INFOPLIST_FILE = "modafy/modafy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		69CDABEE19752CEC00FFE3D3 /* Release */ = {
+		6918530E197542470098974F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Modafy/Modafy-Prefix.pch";
-				INFOPLIST_FILE = "Modafy/Modafy-Info.plist";
+				GCC_PREFIX_HEADER = "modafy/modafy-Prefix.pch";
+				INFOPLIST_FILE = "modafy/modafy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		69CDABF019752CEC00FFE3D3 /* Debug */ = {
+		69185310197542470098974F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Modafy.app/Modafy";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/modafy.app/modafy";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Modafy/Modafy-Prefix.pch";
+				GCC_PREFIX_HEADER = "modafy/modafy-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ModafyTests/ModafyTests-Info.plist";
+				INFOPLIST_FILE = "modafyTests/modafyTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		69CDABF119752CEC00FFE3D3 /* Release */ = {
+		69185311197542470098974F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Modafy.app/Modafy";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/modafy.app/modafy";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Modafy/Modafy-Prefix.pch";
-				INFOPLIST_FILE = "ModafyTests/ModafyTests-Info.plist";
+				GCC_PREFIX_HEADER = "modafy/modafy-Prefix.pch";
+				INFOPLIST_FILE = "modafyTests/modafyTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -441,32 +441,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69CDABB519752CEC00FFE3D3 /* Build configuration list for PBXProject "Modafy" */ = {
+		691852D5197542470098974F /* Build configuration list for PBXProject "modafy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69CDABEA19752CEC00FFE3D3 /* Debug */,
-				69CDABEB19752CEC00FFE3D3 /* Release */,
+				6918530A197542470098974F /* Debug */,
+				6918530B197542470098974F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69CDABEC19752CEC00FFE3D3 /* Build configuration list for PBXNativeTarget "Modafy" */ = {
+		6918530C197542470098974F /* Build configuration list for PBXNativeTarget "modafy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69CDABED19752CEC00FFE3D3 /* Debug */,
-				69CDABEE19752CEC00FFE3D3 /* Release */,
+				6918530D197542470098974F /* Debug */,
+				6918530E197542470098974F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		69CDABEF19752CEC00FFE3D3 /* Build configuration list for PBXNativeTarget "ModafyTests" */ = {
+		6918530F197542470098974F /* Build configuration list for PBXNativeTarget "modafyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69CDABF019752CEC00FFE3D3 /* Debug */,
-				69CDABF119752CEC00FFE3D3 /* Release */,
+				69185310197542470098974F /* Debug */,
+				69185311197542470098974F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 69CDABB219752CEC00FFE3D3 /* Project object */;
+	rootObject = 691852D2197542470098974F /* Project object */;
 }

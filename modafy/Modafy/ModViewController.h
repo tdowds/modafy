@@ -1,6 +1,6 @@
 //
-//  ModafyViewController.h
-//  Modafy
+//  ModViewController.h
+//  modafy
 //
 //  Created by Trevor Dowds on 7/15/14.
 //  Copyright (c) 2014 Modafy. All rights reserved.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModafyViewController : UIViewController
+@interface ModViewController : UIViewController
 
 @end

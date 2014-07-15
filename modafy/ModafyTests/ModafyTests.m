@@ -1,6 +1,6 @@
 //
-//  ModafyTests.m
-//  ModafyTests
+//  modafyTests.m
+//  modafyTests
 //
 //  Created by Trevor Dowds on 7/15/14.
 //  Copyright (c) 2014 Modafy. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ModafyTests : XCTestCase
+@interface modafyTests : XCTestCase
 
 @end
 
-@implementation ModafyTests
+@implementation modafyTests
 
 - (void)setUp
 {

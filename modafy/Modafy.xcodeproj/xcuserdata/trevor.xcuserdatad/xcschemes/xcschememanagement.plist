@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Modafy.xcscheme</key>
+		<key>modafy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>69CDABB919752CEC00FFE3D3</key>
+		<key>691852D9197542470098974F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>69CDABDA19752CEC00FFE3D3</key>
+		<key>691852FA197542470098974F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

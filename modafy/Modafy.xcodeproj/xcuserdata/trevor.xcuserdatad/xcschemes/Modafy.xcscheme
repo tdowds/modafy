@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69CDABB919752CEC00FFE3D3"
-               BuildableName = "Modafy.app"
-               BlueprintName = "Modafy"
-               ReferencedContainer = "container:Modafy.xcodeproj">
+               BlueprintIdentifier = "691852D9197542470098974F"
+               BuildableName = "modafy.app"
+               BlueprintName = "modafy"
+               ReferencedContainer = "container:modafy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69CDABDA19752CEC00FFE3D3"
-               BuildableName = "ModafyTests.xctest"
-               BlueprintName = "ModafyTests"
-               ReferencedContainer = "container:Modafy.xcodeproj">
+               BlueprintIdentifier = "691852FA197542470098974F"
+               BuildableName = "modafyTests.xctest"
+               BlueprintName = "modafyTests"
+               ReferencedContainer = "container:modafy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69CDABB919752CEC00FFE3D3"
-            BuildableName = "Modafy.app"
-            BlueprintName = "Modafy"
-            ReferencedContainer = "container:Modafy.xcodeproj">
+            BlueprintIdentifier = "691852D9197542470098974F"
+            BuildableName = "modafy.app"
+            BlueprintName = "modafy"
+            ReferencedContainer = "container:modafy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69CDABB919752CEC00FFE3D3"
-            BuildableName = "Modafy.app"
-            BlueprintName = "Modafy"
-            ReferencedContainer = "container:Modafy.xcodeproj">
+            BlueprintIdentifier = "691852D9197542470098974F"
+            BuildableName = "modafy.app"
+            BlueprintName = "modafy"
+            ReferencedContainer = "container:modafy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69CDABB919752CEC00FFE3D3"
-            BuildableName = "Modafy.app"
-            BlueprintName = "Modafy"
-            ReferencedContainer = "container:Modafy.xcodeproj">
+            BlueprintIdentifier = "691852D9197542470098974F"
+            BuildableName = "modafy.app"
+            BlueprintName = "modafy"
+            ReferencedContainer = "container:modafy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
