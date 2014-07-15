@@ -9,5 +9,8 @@
 #import "ModClothing.h"
 
 @interface ModShirt : ModClothing
-
+-(instancetype)initWithColor:(NSString *)color
+                        size:(NSString *)size
+                        type:(NSString *)type
+                       image:(UIImage *)image;
 @end

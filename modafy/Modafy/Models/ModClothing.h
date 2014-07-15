@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface ModClothing : NSObject
-@property  (weak, nonatomic, readonly) NSString *color;
-@property (weak, nonatomic, readonly) NSString *size;
-@property (weak, nonatomic, readonly) NSString *type;
+@property  (weak, nonatomic) NSString *color;
+@property (weak, nonatomic) NSString *size;
+@property (weak, nonatomic) NSString *type;
+@property (weak, nonatomic) UIImage *image;
 @end
