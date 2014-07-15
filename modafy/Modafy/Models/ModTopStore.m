@@ -30,18 +30,22 @@
 
 - (void)left
 {
-    if (self.index > 0 && self.index + 1 < [self.tops count]) {
-        self.index += 1;
-        self.shirt = [self.tops objectAtIndex:self.index];
-    }
+    self.index++;
+    self.index = (self.index < 0) ? ([self.tops count] -1):
+    self.index % [self.tops count];
+    
+    /*if (self.index > 0 && self.index + 1 < [self.tops count]) {
+        self.index += 1; */
+    self.shirt = [self.tops objectAtIndex:self.index];
+    //}
 }
 
 - (void)right
 {
-    if (self.index - 1 >= 0 && self.index < [self.tops count]) {
-        self.index -= 1;
-        self.shirt = [self.tops objectAtIndex:self.index];
-    }
+    self.index--;
+    self.index = (self.index < 0) ? ([self.tops count] -1):
+    self.index % [self.tops count];
+    self.shirt = [self.tops objectAtIndex:self.index];
 }
 
 @end

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ModViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+ - (IBAction)handleSwipe:(UIGestureRecognizer *)sender;
 
 @end

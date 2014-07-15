@@ -25,6 +25,8 @@
 		69CFD73819755241008243B5 /* ModPants.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD73219755241008243B5 /* ModPants.m */; };
 		69CFD73919755241008243B5 /* ModShirt.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD73419755241008243B5 /* ModShirt.m */; };
 		69CFD73A19755241008243B5 /* ModTopStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD73619755241008243B5 /* ModTopStore.m */; };
+		D3EFB59519755911003602C1 /* lions-shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EFB59319755911003602C1 /* lions-shirt.png */; };
+		D3EFB59619755911003602C1 /* RD-T-Shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EFB59419755911003602C1 /* RD-T-Shirt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		69CFD73419755241008243B5 /* ModShirt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModShirt.m; sourceTree = "<group>"; };
 		69CFD73519755241008243B5 /* ModTopStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModTopStore.h; sourceTree = "<group>"; };
 		69CFD73619755241008243B5 /* ModTopStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModTopStore.m; sourceTree = "<group>"; };
+		D3EFB59319755911003602C1 /* lions-shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lions-shirt.png"; sourceTree = "<group>"; };
+		D3EFB59419755911003602C1 /* RD-T-Shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RD-T-Shirt.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 		691852E4197542470098974F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3EFB59319755911003602C1 /* lions-shirt.png */,
+				D3EFB59419755911003602C1 /* RD-T-Shirt.png */,
 				691852E5197542470098974F /* modafy-Info.plist */,
 				691852E6197542470098974F /* InfoPlist.strings */,
 				691852E9197542470098974F /* main.m */,
@@ -267,7 +273,9 @@
 			files = (
 				691852F6197542470098974F /* Images.xcassets in Resources */,
 				691852E8197542470098974F /* InfoPlist.strings in Resources */,
+				D3EFB59519755911003602C1 /* lions-shirt.png in Resources */,
 				691852F1197542470098974F /* Main.storyboard in Resources */,
+				D3EFB59619755911003602C1 /* RD-T-Shirt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
