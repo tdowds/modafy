@@ -11,6 +11,7 @@
 @interface ModViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIImageView *bottomsView;
+@property (weak, nonatomic) IBOutlet UIImageView *shoesView;
  - (IBAction)handleSwipe:(UIGestureRecognizer *)sender;
 
 @end

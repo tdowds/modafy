@@ -9,12 +9,15 @@
 #import "ModViewController.h"
 #import "ModTopStore.h"
 #import "ModPantsStore.h"
+#import "ModShoeStore.h"
 #import "ModShirt.h"
 #import "ModPants.h"
+#import "ModShoe.h"
 
 @interface ModViewController ()
 @property (strong, nonatomic) ModTopStore *store;
 @property (strong, nonatomic) ModPantsStore *pantsStore;
+@property (strong, nonatomic) ModShoeStore *shoesStore;
 @property int clothID;
 @end
 
@@ -33,6 +36,12 @@
     return _pantsStore;
 }
 
+-(ModShoeStore *)shoesStore
+{
+    if (!_shoesStore) _shoesStore = [[ModShoeStore alloc] init];
+    return _shoesStore;
+}
+
 
 - (void)viewDidLoad
 {
@@ -43,6 +52,10 @@
     ModShirt *secondShirt = [[ModShirt alloc] initWithColor:(@"red") size:(@"small") type:(@"shirt") image:([UIImage imageNamed:(@"RD-T-Shirt")])];
     ModPants *firstPant = [[ModPants alloc] initWithColor:@"blue" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b3"]];
     ModPants *secondPant = [[ModPants alloc] initWithColor:@"salmon" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b4"]];
+    ModShoe *firstShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s1"]];
+    ModShoe *secondShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s11"]];
+
+    
     
     [self.store add:firstShirt];
     [self.store add:secondShirt];
@@ -52,6 +65,9 @@
     [self.pantsStore add:secondPant];
     [self.bottomsView setImage:self.pantsStore.pants.image];
     
+    [self.shoesStore add:firstShoe];
+    [self.shoesStore add:secondShoe];
+    [self.shoesView setImage:self.shoesStore.shoe.image];
 }
 
 - (void)didReceiveMemoryWarning
@@ -71,7 +87,11 @@
         } else if (self.clothID == 1) {
             [self.pantsStore left];
             [self.bottomsView setImage:self.pantsStore.pants.image];
+        } else if (self.clothID == 2){
+            [self.shoesStore left];
+            [self.shoesView setImage:self.shoesStore.shoe.image];
         }
+        
     } else if (direction == UISwipeGestureRecognizerDirectionRight){
         if (self.clothID == 0) {
             [self.store right];
@@ -79,6 +99,9 @@
         } else if (self.clothID == 1) {
             [self.pantsStore right];
             [self.bottomsView setImage:self.pantsStore.pants.image];
+        } else if (self.clothID == 2){
+            [self.shoesStore right];
+            [self.shoesView setImage:self.shoesStore.shoe.image];
         }
     }
 }
@@ -89,6 +112,9 @@
 
 - (IBAction)selectPants:(id)sender {
     self.clothID = 1;
+}
+- (IBAction)selectShoe:(id)sender {
+    self.clothID = 2;
 }
 
 @end
