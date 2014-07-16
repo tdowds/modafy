@@ -48,25 +48,37 @@
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    ModShirt *firstShirt = [[ModShirt alloc] initWithColor:(@"blue") size:(@"medium") type:(@"shirt") image:([UIImage imageNamed:(@"lions-shirt")])];
-    ModShirt *secondShirt = [[ModShirt alloc] initWithColor:(@"red") size:(@"small") type:(@"shirt") image:([UIImage imageNamed:(@"RD-T-Shirt")])];
+    //SHIRTS
+    ModShirt *firstShirt = [[ModShirt alloc] initWithColor:(@"coral") size:(@"medium") type:(@"shirt") image:([UIImage imageNamed:(@"t12")])];
+    ModShirt *secondShirt = [[ModShirt alloc] initWithColor:(@"red") size:(@"small") type:(@"shirt") image:([UIImage imageNamed:(@"t5")])];
+    ModShirt *thirdShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t2")])];
+    
+    //PANTS
     ModPants *firstPant = [[ModPants alloc] initWithColor:@"blue" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b3"]];
     ModPants *secondPant = [[ModPants alloc] initWithColor:@"salmon" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b4"]];
+    ModPants *thirdPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b10")]];
+    
+    //SHOES
     ModShoe *firstShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s1"]];
     ModShoe *secondShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s11"]];
+    ModShoe *thirdShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s15"]];
 
     
     
     [self.store add:firstShirt];
     [self.store add:secondShirt];
+    [self.store add:thirdShirt];
     [self.imageView setImage:(self.store.shirt.image)];
     
     [self.pantsStore add:firstPant];
     [self.pantsStore add:secondPant];
+    [self.pantsStore add:thirdPant];
+    
     [self.bottomsView setImage:self.pantsStore.pants.image];
     
     [self.shoesStore add:firstShoe];
     [self.shoesStore add:secondShoe];
+    [self.shoesStore add:thirdShoe];
     [self.shoesView setImage:self.shoesStore.shoe.image];
 }
 
