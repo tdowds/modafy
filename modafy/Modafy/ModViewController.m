@@ -8,10 +8,14 @@
 
 #import "ModViewController.h"
 #import "ModTopStore.h"
+#import "ModPantsStore.h"
 #import "ModShirt.h"
+#import "ModPants.h"
 
 @interface ModViewController ()
 @property (strong, nonatomic) ModTopStore *store;
+@property (strong, nonatomic) ModPantsStore *pantsStore;
+@property int clothID;
 @end
 
 @implementation ModViewController
@@ -23,6 +27,12 @@
    return _store;
 }
 
+-(ModPantsStore *)pantsStore
+{
+    if (!_pantsStore) _pantsStore = [[ModPantsStore alloc] init];
+    return _pantsStore;
+}
+
 
 - (void)viewDidLoad
 {
@@ -31,10 +41,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
     ModShirt *firstShirt = [[ModShirt alloc] initWithColor:(@"blue") size:(@"medium") type:(@"shirt") image:([UIImage imageNamed:(@"lions-shirt")])];
     ModShirt *secondShirt = [[ModShirt alloc] initWithColor:(@"red") size:(@"small") type:(@"shirt") image:([UIImage imageNamed:(@"RD-T-Shirt")])];
+    ModPants *firstPant = [[ModPants alloc] initWithColor:@"blue" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b3"]];
+    ModPants *secondPant = [[ModPants alloc] initWithColor:@"salmon" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b4"]];
     
     [self.store add:firstShirt];
     [self.store add:secondShirt];
     [self.imageView setImage:(self.store.shirt.image)];
+    
+    [self.pantsStore add:firstPant];
+    [self.pantsStore add:secondPant];
+    [self.bottomsView setImage:self.pantsStore.pants.image];
     
 }
 
@@ -49,12 +65,30 @@
     UISwipeGestureRecognizerDirection direction = [(UISwipeGestureRecognizer *) sender direction];
 
     if (direction == UISwipeGestureRecognizerDirectionLeft){
-       [self.store left];
-        [self.imageView setImage:(self.store.shirt.image)];
+        if (self.clothID == 0) {
+            [self.store left];
+            [self.imageView setImage:(self.store.shirt.image)];
+        } else if (self.clothID == 1) {
+            [self.pantsStore left];
+            [self.bottomsView setImage:self.pantsStore.pants.image];
+        }
     } else if (direction == UISwipeGestureRecognizerDirectionRight){
-       [self.store right];
-        [self.imageView setImage:(self.store.shirt.image)];
+        if (self.clothID == 0) {
+            [self.store right];
+            [self.imageView setImage:(self.store.shirt.image)];
+        } else if (self.clothID == 1) {
+            [self.pantsStore right];
+            [self.bottomsView setImage:self.pantsStore.pants.image];
+        }
     }
+}
+
+- (IBAction)selectShirt:(id)sender {
+    self.clothID = 0;
+}
+
+- (IBAction)selectPants:(id)sender {
+    self.clothID = 1;
 }
 
 @end
