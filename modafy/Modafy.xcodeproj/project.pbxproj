@@ -21,6 +21,9 @@
 		691852FF197542470098974F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852E1197542470098974F /* UIKit.framework */; };
 		69185307197542470098974F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69185305197542470098974F /* InfoPlist.strings */; };
 		69185309197542470098974F /* modafyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69185308197542470098974F /* modafyTests.m */; };
+		6921375819767A300062023C /* ModItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921375719767A300062023C /* ModItems.m */; };
+		6921375D19767B490062023C /* ModBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921375C19767B490062023C /* ModBag.m */; };
+		6921376019767B6A0062023C /* ModBagStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921375F19767B6A0062023C /* ModBagStore.m */; };
 		69B6231D1976688F0028AC51 /* ModShoeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B6231C1976688F0028AC51 /* ModShoeStore.m */; };
 		69B62320197668D60028AC51 /* ModShoe.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B6231F197668D60028AC51 /* ModShoe.m */; };
 		69CFD73719755241008243B5 /* ModClothing.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD73019755241008243B5 /* ModClothing.m */; };
@@ -83,6 +86,12 @@
 		69185304197542470098974F /* modafyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "modafyTests-Info.plist"; sourceTree = "<group>"; };
 		69185306197542470098974F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69185308197542470098974F /* modafyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modafyTests.m; sourceTree = "<group>"; };
+		6921375619767A300062023C /* ModItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModItems.h; sourceTree = "<group>"; };
+		6921375719767A300062023C /* ModItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModItems.m; sourceTree = "<group>"; };
+		6921375B19767B490062023C /* ModBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModBag.h; sourceTree = "<group>"; };
+		6921375C19767B490062023C /* ModBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModBag.m; sourceTree = "<group>"; };
+		6921375E19767B6A0062023C /* ModBagStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModBagStore.h; sourceTree = "<group>"; };
+		6921375F19767B6A0062023C /* ModBagStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModBagStore.m; sourceTree = "<group>"; };
 		69B6231B1976688F0028AC51 /* ModShoeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModShoeStore.h; sourceTree = "<group>"; };
 		69B6231C1976688F0028AC51 /* ModShoeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModShoeStore.m; sourceTree = "<group>"; };
 		69B6231E197668D60028AC51 /* ModShoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModShoe.h; sourceTree = "<group>"; };
@@ -243,7 +252,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		69CFD72E19755241008243B5 /* Models */ = {
+		6921375919767A390062023C /* Clothes */ = {
 			isa = PBXGroup;
 			children = (
 				69CFD72F19755241008243B5 /* ModClothing.h */,
@@ -254,6 +263,26 @@
 				69CFD73219755241008243B5 /* ModPants.m */,
 				69CFD73319755241008243B5 /* ModShirt.h */,
 				69CFD73419755241008243B5 /* ModShirt.m */,
+			);
+			name = Clothes;
+			sourceTree = "<group>";
+		};
+		6921375A19767A6A0062023C /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				6921375B19767B490062023C /* ModBag.h */,
+				6921375C19767B490062023C /* ModBag.m */,
+				6921375619767A300062023C /* ModItems.h */,
+				6921375719767A300062023C /* ModItems.m */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		69CFD72E19755241008243B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6921375919767A390062023C /* Clothes */,
+				6921375A19767A6A0062023C /* Items */,
 				69CFD73B19755258008243B5 /* Stores */,
 			);
 			path = Models;
@@ -262,6 +291,8 @@
 		69CFD73B19755258008243B5 /* Stores */ = {
 			isa = PBXGroup;
 			children = (
+				6921375E19767B6A0062023C /* ModBagStore.h */,
+				6921375F19767B6A0062023C /* ModBagStore.m */,
 				69B6231B1976688F0028AC51 /* ModShoeStore.h */,
 				69B6231C1976688F0028AC51 /* ModShoeStore.m */,
 				69CFD73F1975757A008243B5 /* ModPantsStore.h */,
@@ -394,11 +425,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				69CFD73719755241008243B5 /* ModClothing.m in Sources */,
+				6921375819767A300062023C /* ModItems.m in Sources */,
 				69CFD73819755241008243B5 /* ModPants.m in Sources */,
 				69B6231D1976688F0028AC51 /* ModShoeStore.m in Sources */,
 				691852EA197542470098974F /* main.m in Sources */,
+				6921375D19767B490062023C /* ModBag.m in Sources */,
 				691852F4197542470098974F /* ModViewController.m in Sources */,
 				691852EE197542470098974F /* ModAppDelegate.m in Sources */,
+				6921376019767B6A0062023C /* ModBagStore.m in Sources */,
 				69CFD7411975757A008243B5 /* ModPantsStore.m in Sources */,
 				69CFD73919755241008243B5 /* ModShirt.m in Sources */,
 				69CFD73A19755241008243B5 /* ModTopStore.m in Sources */,

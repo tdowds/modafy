@@ -10,14 +10,17 @@
 #import "ModTopStore.h"
 #import "ModPantsStore.h"
 #import "ModShoeStore.h"
+#import "ModBagStore.h"
 #import "ModShirt.h"
 #import "ModPants.h"
 #import "ModShoe.h"
+#import "ModBag.h"
 
 @interface ModViewController ()
 @property (strong, nonatomic) ModTopStore *store;
 @property (strong, nonatomic) ModPantsStore *pantsStore;
 @property (strong, nonatomic) ModShoeStore *shoesStore;
+@property (strong, nonatomic) ModBagStore *bagStore;
 @property int clothID;
 @end
 
@@ -40,6 +43,12 @@
 {
     if (!_shoesStore) _shoesStore = [[ModShoeStore alloc] init];
     return _shoesStore;
+}
+
+-(ModBagStore *)bagStore
+{
+    if (!_bagStore) _bagStore = [[ModBagStore alloc] init];
+    return _bagStore;
 }
 
 
@@ -102,6 +111,9 @@
         } else if (self.clothID == 2){
             [self.shoesStore left];
             [self.shoesView setImage:self.shoesStore.shoe.image];
+        } else if (self.clothID == 3) {
+            [self.bagStore left];
+            [self.bagView setImage:self.bagStore.bag.image];
         }
         
     } else if (direction == UISwipeGestureRecognizerDirectionRight){
@@ -114,6 +126,9 @@
         } else if (self.clothID == 2){
             [self.shoesStore right];
             [self.shoesView setImage:self.shoesStore.shoe.image];
+        } else if (self.clothID == 3) {
+            [self.bagStore right];
+            [self.bagView setImage:self.bagStore.bag.image];
         }
     }
 }
@@ -127,6 +142,9 @@
 }
 - (IBAction)selectShoe:(id)sender {
     self.clothID = 2;
+}
+- (IBAction)selectBag:(id)sender {
+    self.clothID = 3;
 }
 
 @end
