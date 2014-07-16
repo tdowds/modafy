@@ -27,6 +27,7 @@
 		6910F07A1976972C009968AD /* t9.png in Resources */ = {isa = PBXBuildFile; fileRef = 6910F0791976972C009968AD /* t9.png */; };
 		6910F07D19769DE9009968AD /* ModDress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6910F07C19769DE9009968AD /* ModDress.m */; };
 		6910F08019769E16009968AD /* ModDressStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6910F07F19769E16009968AD /* ModDressStore.m */; };
+		6910F0831976C728009968AD /* ModObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6910F0821976C728009968AD /* ModObject.m */; };
 		691852DE197542470098974F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DD197542470098974F /* Foundation.framework */; };
 		691852E0197542470098974F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DF197542470098974F /* CoreGraphics.framework */; };
 		691852E2197542470098974F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852E1197542470098974F /* UIKit.framework */; };
@@ -119,6 +120,8 @@
 		6910F07C19769DE9009968AD /* ModDress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModDress.m; sourceTree = "<group>"; };
 		6910F07E19769E16009968AD /* ModDressStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModDressStore.h; sourceTree = "<group>"; };
 		6910F07F19769E16009968AD /* ModDressStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModDressStore.m; sourceTree = "<group>"; };
+		6910F0811976C728009968AD /* ModObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModObject.h; sourceTree = "<group>"; };
+		6910F0821976C728009968AD /* ModObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModObject.m; sourceTree = "<group>"; };
 		691852DA197542470098974F /* modafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		691852DD197542470098974F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		691852DF197542470098974F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -406,6 +409,8 @@
 		69CFD72E19755241008243B5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6910F0811976C728009968AD /* ModObject.h */,
+				6910F0821976C728009968AD /* ModObject.m */,
 				6921375919767A390062023C /* Clothes */,
 				6921375A19767A6A0062023C /* Items */,
 				69CFD73B19755258008243B5 /* Stores */,
@@ -601,6 +606,7 @@
 				6921376019767B6A0062023C /* ModBagStore.m in Sources */,
 				69CFD7411975757A008243B5 /* ModPantsStore.m in Sources */,
 				69CFD73919755241008243B5 /* ModShirt.m in Sources */,
+				6910F0831976C728009968AD /* ModObject.m in Sources */,
 				69CFD73A19755241008243B5 /* ModTopStore.m in Sources */,
 				69B62320197668D60028AC51 /* ModShoe.m in Sources */,
 				6910F05219768F7B009968AD /* ModAccessories.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ModItems.h
+//  ModObject.h
 //  modafy
 //
 //  Created by Trevor Dowds on 7/16/14.
@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ModObject.h"
 
-@interface ModItems : ModObject
-- (instancetype)initWithImage:(UIImage *)image;
+@interface ModObject : NSObject
+@property (weak, nonatomic) UIImage *image;
 @end
