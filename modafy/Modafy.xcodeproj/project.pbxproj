@@ -79,6 +79,10 @@
 		D35D81EC1976A656005186EF /* t17.png in Resources */ = {isa = PBXBuildFile; fileRef = D35D81EB1976A656005186EF /* t17.png */; };
 		D35D81EE1976A660005186EF /* t18.png in Resources */ = {isa = PBXBuildFile; fileRef = D35D81ED1976A660005186EF /* t18.png */; };
 		D35D81F01976A669005186EF /* t19.png in Resources */ = {isa = PBXBuildFile; fileRef = D35D81EF1976A669005186EF /* t19.png */; };
+		D3A087721976CD370071F59F /* check33.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A087711976CD370071F59F /* check33.png */; };
+		D3A087741976CD3F0071F59F /* plus33.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A087731976CD3F0071F59F /* plus33.png */; };
+		D3A087761976CD480071F59F /* refresh21.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A087751976CD480071F59F /* refresh21.png */; };
+		D3A087781976CD640071F59F /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A087771976CD640071F59F /* unnamed.png */; };
 		D3CF80381976680F008ADDEC /* b4.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF80371976680F008ADDEC /* b4.png */; };
 		D3CF803A19766814008ADDEC /* b3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF803919766814008ADDEC /* b3.png */; };
 		D3DDCD59197692EC00168855 /* scarf2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DDCD58197692EC00168855 /* scarf2.png */; };
@@ -188,6 +192,10 @@
 		D35D81EB1976A656005186EF /* t17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t17.png; sourceTree = "<group>"; };
 		D35D81ED1976A660005186EF /* t18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t18.png; sourceTree = "<group>"; };
 		D35D81EF1976A669005186EF /* t19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t19.png; sourceTree = "<group>"; };
+		D3A087711976CD370071F59F /* check33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check33.png; sourceTree = "<group>"; };
+		D3A087731976CD3F0071F59F /* plus33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus33.png; sourceTree = "<group>"; };
+		D3A087751976CD480071F59F /* refresh21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh21.png; sourceTree = "<group>"; };
+		D3A087771976CD640071F59F /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
 		D3CF80371976680F008ADDEC /* b4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b4.png; sourceTree = "<group>"; };
 		D3CF803919766814008ADDEC /* b3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b3.png; sourceTree = "<group>"; };
 		D3DDCD58197692EC00168855 /* scarf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scarf2.png; sourceTree = "<group>"; };
@@ -335,6 +343,10 @@
 		691852E4197542470098974F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3A087771976CD640071F59F /* unnamed.png */,
+				D3A087751976CD480071F59F /* refresh21.png */,
+				D3A087731976CD3F0071F59F /* plus33.png */,
+				D3A087711976CD370071F59F /* check33.png */,
 				D35D81E81976A642005186EF /* Dresses */,
 				6910F05D19769512009968AD /* Bottoms */,
 				6910F0561976946B009968AD /* Bags */,
@@ -527,9 +539,11 @@
 			files = (
 				D35D81E31976A2B9005186EF /* jeanhat.jpeg in Resources */,
 				6910F06D19769637009968AD /* b5.png in Resources */,
+				D3A087781976CD640071F59F /* unnamed.png in Resources */,
 				D3CF803A19766814008ADDEC /* b3.png in Resources */,
 				6910F06B1976960C009968AD /* b2.png in Resources */,
 				D330F5B619767B47005CAA9B /* s15.png in Resources */,
+				D3A087761976CD480071F59F /* refresh21.png in Resources */,
 				6910F071197696AA009968AD /* s12.png in Resources */,
 				D35D81EC1976A656005186EF /* t17.png in Resources */,
 				6910F07819769714009968AD /* t14.png in Resources */,
@@ -555,6 +569,8 @@
 				691852F1197542470098974F /* Main.storyboard in Resources */,
 				D330F5A8197676EF005CAA9B /* black269.png in Resources */,
 				D35D81E71976A453005186EF /* female94.png in Resources */,
+				D3A087721976CD370071F59F /* check33.png in Resources */,
+				D3A087741976CD3F0071F59F /* plus33.png in Resources */,
 				6910F069197695D7009968AD /* b15.png in Resources */,
 				D330F5B419767AC4005CAA9B /* t2.png in Resources */,
 				D330F5BC197680E3005CAA9B /* a4.png in Resources */,
