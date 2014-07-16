@@ -17,6 +17,8 @@
 #import "ModShoe.h"
 #import "ModBag.h"
 #import "ModAccessories.h"
+#import "ModDress.h"
+#import "ModDressStore.h"
 
 
 @interface ModViewController ()
@@ -25,6 +27,7 @@
 @property (strong, nonatomic) ModShoeStore *shoesStore;
 @property (strong, nonatomic) ModBagStore *bagStore;
 @property (strong, nonatomic) ModAccessoriesStore *accStore;
+@property (strong, nonatomic) ModDressStore *dressStore;
 
 @property int clothID;
 @end
@@ -60,6 +63,12 @@
 {
     if (!_accStore) _accStore = [[ModAccessoriesStore alloc] init];
     return _accStore;
+}
+
+-(ModDressStore *)dressStore
+{
+    if (!_dressStore) _dressStore = [[ModDressStore alloc] init];
+    return _dressStore;
 }
 
 
@@ -113,6 +122,11 @@
     ModAccessories *fifthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"bluehat.jpeg"]];
     ModAccessories *sixthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf.jpeg"]];
     
+    //DRESSES
+    ModDress *firstDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t19"]];
+    ModDress *secondDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t18"]];
+    ModDress *thirdDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t17"]];
+    ModDress *fourthDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t16"]];
 
     
     
@@ -165,6 +179,12 @@
     [self.accStore add:sixthAcc];
     [self.accessoryView setImage:self.accStore.accessory.image];
     
+    //ADD DRESSES
+    [self.dressStore add:firstDress];
+    [self.dressStore add:secondDress];
+    [self.dressStore add:thirdDress];
+    [self.dressStore add:fourthDress];
+    self.dressView.hidden = YES;
     
     
 
@@ -196,6 +216,9 @@
         } else if (self.clothID == 4){
             [self.accStore left];
             [self.accessoryView setImage:self.accStore.accessory.image];
+        } else if (self.clothID == 5){
+            [self.dressStore left];
+            [self.dressView setImage:self.dressStore.dress.image];
         }
         
     } else if (direction == UISwipeGestureRecognizerDirectionRight){
@@ -214,17 +237,26 @@
         } else if (self.clothID == 4){
             [self.accStore right];
             [self.accessoryView setImage:self.accStore.accessory.image];
+        } else if (self.clothID == 5){
+            [self.dressStore right];
+            [self.dressView setImage:self.dressStore.dress.image];
         }
-
     }
 }
 
 - (IBAction)selectShirt:(id)sender {
     self.clothID = 0;
+    self.imageView.hidden = NO;
+    self.bottomsView.hidden = NO;
+    self.dressView.hidden = YES;
 }
 
 - (IBAction)selectPants:(id)sender {
     self.clothID = 1;
+    self.imageView.hidden = NO;
+    self.bottomsView.hidden = NO;
+    self.dressView.hidden = YES;
+
 }
 - (IBAction)selectShoe:(id)sender {
     self.clothID = 2;
@@ -234,6 +266,14 @@
 }
 - (IBAction)selectAcc:(id)sender {
     self.clothID = 4;
+}
+- (IBAction)selectDress:(id)sender {
+    self.clothID = 5;
+    self.imageView.hidden = YES;
+    self.bottomsView.hidden = YES;
+    self.dressView.hidden = NO;
+    [self.dressView setImage:self.dressStore.dress.image];
+    
 }
 
 
