@@ -25,6 +25,8 @@
 		6910F076197696FB009968AD /* t10.png in Resources */ = {isa = PBXBuildFile; fileRef = 6910F075197696FB009968AD /* t10.png */; };
 		6910F07819769714009968AD /* t14.png in Resources */ = {isa = PBXBuildFile; fileRef = 6910F07719769714009968AD /* t14.png */; };
 		6910F07A1976972C009968AD /* t9.png in Resources */ = {isa = PBXBuildFile; fileRef = 6910F0791976972C009968AD /* t9.png */; };
+		6910F07D19769DE9009968AD /* ModDress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6910F07C19769DE9009968AD /* ModDress.m */; };
+		6910F08019769E16009968AD /* ModDressStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6910F07F19769E16009968AD /* ModDressStore.m */; };
 		691852DE197542470098974F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DD197542470098974F /* Foundation.framework */; };
 		691852E0197542470098974F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DF197542470098974F /* CoreGraphics.framework */; };
 		691852E2197542470098974F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852E1197542470098974F /* UIKit.framework */; };
@@ -105,6 +107,10 @@
 		6910F075197696FB009968AD /* t10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t10.png; path = ../../../Downloads/t10.png; sourceTree = "<group>"; };
 		6910F07719769714009968AD /* t14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t14.png; path = ../../../Downloads/t14.png; sourceTree = "<group>"; };
 		6910F0791976972C009968AD /* t9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t9.png; path = ../../../Downloads/t9.png; sourceTree = "<group>"; };
+		6910F07B19769DE9009968AD /* ModDress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModDress.h; sourceTree = "<group>"; };
+		6910F07C19769DE9009968AD /* ModDress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModDress.m; sourceTree = "<group>"; };
+		6910F07E19769E16009968AD /* ModDressStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModDressStore.h; sourceTree = "<group>"; };
+		6910F07F19769E16009968AD /* ModDressStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModDressStore.m; sourceTree = "<group>"; };
 		691852DA197542470098974F /* modafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		691852DD197542470098974F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		691852DF197542470098974F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -357,6 +363,8 @@
 				69CFD73219755241008243B5 /* ModPants.m */,
 				69CFD73319755241008243B5 /* ModShirt.h */,
 				69CFD73419755241008243B5 /* ModShirt.m */,
+				6910F07B19769DE9009968AD /* ModDress.h */,
+				6910F07C19769DE9009968AD /* ModDress.m */,
 			);
 			name = Clothes;
 			sourceTree = "<group>";
@@ -387,6 +395,8 @@
 		69CFD73B19755258008243B5 /* Stores */ = {
 			isa = PBXGroup;
 			children = (
+				6910F07E19769E16009968AD /* ModDressStore.h */,
+				6910F07F19769E16009968AD /* ModDressStore.m */,
 				6910F05319768FA3009968AD /* ModAccessoriesStore.h */,
 				6910F05419768FA3009968AD /* ModAccessoriesStore.m */,
 				6921375E19767B6A0062023C /* ModBagStore.h */,
@@ -538,12 +548,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6910F08019769E16009968AD /* ModDressStore.m in Sources */,
 				69CFD73719755241008243B5 /* ModClothing.m in Sources */,
 				6921375819767A300062023C /* ModItems.m in Sources */,
 				69CFD73819755241008243B5 /* ModPants.m in Sources */,
 				69B6231D1976688F0028AC51 /* ModShoeStore.m in Sources */,
 				691852EA197542470098974F /* main.m in Sources */,
 				6921375D19767B490062023C /* ModBag.m in Sources */,
+				6910F07D19769DE9009968AD /* ModDress.m in Sources */,
 				691852F4197542470098974F /* ModViewController.m in Sources */,
 				691852EE197542470098974F /* ModAppDelegate.m in Sources */,
 				6921376019767B6A0062023C /* ModBagStore.m in Sources */,
