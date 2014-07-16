@@ -108,7 +108,12 @@
     //ACCESSORIES
     ModAccessories *firstAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf"]];
     ModAccessories *secondAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf2"]];
-    
+    ModAccessories *thirdAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf.jpeg"]];
+    ModAccessories *fifthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"jeanhat.jpeg"]];
+    ModAccessories *sixthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"jneck.jpeg"]];
+    ModAccessories *seventhAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"bluehat.jpeg"]];
+
+
     
     
     //ADD SHIRT
@@ -154,6 +159,11 @@
     //ADD ACCESSORIES
     [self.accStore add:firstAcc];
     [self.accStore add:secondAcc];
+    [self.accStore add:thirdAcc];
+//    [self.accStore add:fourthAcc];
+    [self.accStore add:fifthAcc];
+    [self.accStore add:sixthAcc];
+    [self.accStore add:seventhAcc];
     [self.accessoryView setImage:self.accStore.accessory.image];
     
     
