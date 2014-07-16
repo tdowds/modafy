@@ -13,4 +13,8 @@
 @property (weak, nonatomic) NSString *size;
 @property (weak, nonatomic) NSString *type;
 @property (weak, nonatomic) UIImage *image;
+- (instancetype) initWithColor:(NSString *)color
+                          size:(NSString *)size
+                          type:(NSString *)type
+                         image:(UIImage *)image;
 @end
