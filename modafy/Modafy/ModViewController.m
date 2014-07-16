@@ -196,6 +196,46 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)swipeLeft:(ModObject *)currentPiece view:(UIImageView *)view coordinate:(CGFloat)coord
+{
+    [UIView animateWithDuration:0.3 animations:^{
+        CGRect frame = view.frame;
+        frame.origin.x = self.view.frame.origin.x - 320;
+        view.frame = frame;
+    } completion:^(BOOL finished) {
+        [view setImage:(currentPiece.image)];
+        [self.view bringSubviewToFront:view];
+        CGRect frame = view.frame;
+        frame.origin.x = self.view.frame.origin.x + 320;
+        view.frame = frame;
+        [UIView animateWithDuration:0.3 animations:^{
+            CGRect frame = view.frame;
+            frame.origin.x = coord;
+            view.frame = frame;
+        }];
+    }];
+}
+
+- (void)swipeRight:(ModObject *)currentPiece view:(UIImageView *)view coordinate:(CGFloat)coord
+{
+    [UIView animateWithDuration:0.3 animations:^{
+        CGRect frame = view.frame;
+        frame.origin.x = self.view.frame.origin.x + 320;
+        view.frame = frame;
+    } completion:^(BOOL finished) {
+        [view setImage:(currentPiece.image)];
+        [self.view bringSubviewToFront:view];
+        CGRect frame = view.frame;
+        frame.origin.x = self.view.frame.origin.x - 320;
+        view.frame = frame;
+        [UIView animateWithDuration:0.3 animations:^{
+            CGRect frame = view.frame;
+            frame.origin.x = coord;
+            view.frame = frame;
+        }];
+    }];
+}
+
 - (IBAction)handleSwipe:(UISwipeGestureRecognizer *)sender {
 
     UISwipeGestureRecognizerDirection direction = [(UISwipeGestureRecognizer *) sender direction];
@@ -203,59 +243,55 @@
     if (direction == UISwipeGestureRecognizerDirectionLeft){
         if (self.clothID == 0) {
             [self.store left];
-            [UIView animateWithDuration:0.2 animations:^{
-                CGRect frame = self.imageView.frame;
-                frame.origin.x = self.view.frame.origin.x - frame.size.width;
-                self.imageView.frame = frame;
-            } completion:^(BOOL finished) {
-                [self.imageView setImage:(self.store.shirt.image)];
-                [self.view bringSubviewToFront:self.imageView];
-                CGRect frame = self.imageView.frame;
-                frame.origin.x = self.view.frame.origin.x + self.view.frame.size.width;
-                self.imageView.frame = frame;
-                [UIView animateWithDuration:0.4 animations:^{
-                    CGRect frame = self.imageView.frame;
-                    frame.origin.x = 32;
-                    self.imageView.frame = frame;
-                }];
-            }];
-            
+            CGFloat n = 32;
+            [self swipeLeft:self.store.shirt view:self.imageView coordinate:n];
         } else if (self.clothID == 1) {
             [self.pantsStore left];
-            [self.bottomsView setImage:self.pantsStore.pants.image];
+            CGFloat n = 25;
+            [self swipeLeft:self.pantsStore.pants view:self.bottomsView coordinate:n];
         } else if (self.clothID == 2){
             [self.shoesStore left];
-            [self.shoesView setImage:self.shoesStore.shoe.image];
+            CGFloat n = 56;
+            [self swipeLeft:self.shoesStore.shoe view:self.shoesView coordinate:n];
         } else if (self.clothID == 3) {
             [self.bagStore left];
-            [self.bagView setImage:self.bagStore.bag.image];
+            CGFloat n = 201;
+            [self swipeLeft:self.bagStore.bag view:self.bagView coordinate:n];
         } else if (self.clothID == 4){
             [self.accStore left];
-            [self.accessoryView setImage:self.accStore.accessory.image];
+            CGFloat n =201;
+            [self swipeLeft:self.accStore.accessory view:self.accessoryView coordinate:n];
         } else if (self.clothID == 5){
             [self.dressStore left];
-            [self.dressView setImage:self.dressStore.dress.image];
+            CGFloat n = 14;
+            [self swipeLeft:self.dressStore.dress view:self.dressView coordinate:n];
         }
         
     } else if (direction == UISwipeGestureRecognizerDirectionRight){
         if (self.clothID == 0) {
             [self.store right];
-            [self.imageView setImage:(self.store.shirt.image)];
+            CGFloat n = 32;
+            [self swipeRight:self.store.shirt view:self.imageView coordinate:n];
         } else if (self.clothID == 1) {
             [self.pantsStore right];
-            [self.bottomsView setImage:self.pantsStore.pants.image];
+            CGFloat n = 25;
+            [self swipeRight:self.pantsStore.pants view:self.bottomsView coordinate:n];
         } else if (self.clothID == 2){
             [self.shoesStore right];
-            [self.shoesView setImage:self.shoesStore.shoe.image];
+            CGFloat n = 56;
+            [self swipeRight:self.shoesStore.shoe view:self.shoesView coordinate:n];
         } else if (self.clothID == 3) {
             [self.bagStore right];
-            [self.bagView setImage:self.bagStore.bag.image];
+            CGFloat n = 201;
+            [self swipeRight:self.bagStore.bag view:self.bagView coordinate:n];
         } else if (self.clothID == 4){
             [self.accStore right];
-            [self.accessoryView setImage:self.accStore.accessory.image];
+            CGFloat n = 201;
+            [self swipeRight:self.accStore.accessory view:self.accessoryView coordinate:n];
         } else if (self.clothID == 5){
             [self.dressStore right];
-            [self.dressView setImage:self.dressStore.dress.image];
+            CGFloat n = 14;
+            [self swipeRight:self.dressStore.dress view:self.dressView coordinate:n];
         }
     }
 }

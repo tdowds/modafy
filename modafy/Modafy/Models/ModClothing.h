@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ModObject.h"
 
-@interface ModClothing : NSObject
+@interface ModClothing : ModObject
 @property  (weak, nonatomic) NSString *color;
 @property (weak, nonatomic) NSString *size;
 @property (weak, nonatomic) NSString *type;
