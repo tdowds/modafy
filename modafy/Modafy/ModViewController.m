@@ -203,7 +203,23 @@
     if (direction == UISwipeGestureRecognizerDirectionLeft){
         if (self.clothID == 0) {
             [self.store left];
-            [self.imageView setImage:(self.store.shirt.image)];
+            [UIView animateWithDuration:0.2 animations:^{
+                CGRect frame = self.imageView.frame;
+                frame.origin.x = self.view.frame.origin.x - frame.size.width;
+                self.imageView.frame = frame;
+            } completion:^(BOOL finished) {
+                [self.imageView setImage:(self.store.shirt.image)];
+                [self.view bringSubviewToFront:self.imageView];
+                CGRect frame = self.imageView.frame;
+                frame.origin.x = self.view.frame.origin.x + self.view.frame.size.width;
+                self.imageView.frame = frame;
+                [UIView animateWithDuration:0.4 animations:^{
+                    CGRect frame = self.imageView.frame;
+                    frame.origin.x = 32;
+                    self.imageView.frame = frame;
+                }];
+            }];
+            
         } else if (self.clothID == 1) {
             [self.pantsStore left];
             [self.bottomsView setImage:self.pantsStore.pants.image];
