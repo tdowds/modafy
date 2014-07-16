@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *bottomsView;
 @property (weak, nonatomic) IBOutlet UIImageView *shoesView;
 @property (weak, nonatomic) IBOutlet UIImageView *bagView;
+@property (weak, nonatomic) IBOutlet UIImageView *accessoryView;
  - (IBAction)handleSwipe:(UIGestureRecognizer *)sender;
 
 @end

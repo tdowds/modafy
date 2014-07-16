@@ -11,16 +11,21 @@
 #import "ModPantsStore.h"
 #import "ModShoeStore.h"
 #import "ModBagStore.h"
+#import "ModAccessoriesStore.h"
 #import "ModShirt.h"
 #import "ModPants.h"
 #import "ModShoe.h"
 #import "ModBag.h"
+#import "ModAccessories.h"
+
 
 @interface ModViewController ()
 @property (strong, nonatomic) ModTopStore *store;
 @property (strong, nonatomic) ModPantsStore *pantsStore;
 @property (strong, nonatomic) ModShoeStore *shoesStore;
 @property (strong, nonatomic) ModBagStore *bagStore;
+@property (strong, nonatomic) ModAccessoriesStore *accStore;
+
 @property int clothID;
 @end
 
@@ -51,6 +56,12 @@
     return _bagStore;
 }
 
+-(ModAccessoriesStore *)accStore
+{
+    if (!_accStore) _accStore = [[ModAccessoriesStore alloc] init];
+    return _accStore;
+}
+
 
 - (void)viewDidLoad
 {
@@ -76,25 +87,43 @@
     ModBag *firstBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a3"]];
     ModBag *secondBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a4"]];
     
+    //ACCESSORIES
+    ModAccessories *firstAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf"]];
+    ModAccessories *secondAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf2"]];
+    
+    
+    
+    //ADD SHIRT
     [self.store add:firstShirt];
     [self.store add:secondShirt];
     [self.store add:thirdShirt];
     [self.imageView setImage:(self.store.shirt.image)];
     
+    //ADD PANTS
     [self.pantsStore add:firstPant];
     [self.pantsStore add:secondPant];
     [self.pantsStore add:thirdPant];
-    
     [self.bottomsView setImage:self.pantsStore.pants.image];
     
+    //ADD SHOES
     [self.shoesStore add:firstShoe];
     [self.shoesStore add:secondShoe];
     [self.shoesStore add:thirdShoe];
     [self.shoesView setImage:self.shoesStore.shoe.image];
     
+    //ADD BAGS
     [self.bagStore add:firstBag];
     [self.bagStore add:secondBag];
     [self.bagView setImage:self.bagStore.bag.image];
+    
+    //ADD ACCESSORIES
+    [self.accStore add:firstAcc];
+    [self.accStore add:secondAcc];
+    [self.accessoryView setImage:self.accStore.accessory.image];
+    
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -120,6 +149,9 @@
         } else if (self.clothID == 3) {
             [self.bagStore left];
             [self.bagView setImage:self.bagStore.bag.image];
+        } else if (self.clothID == 4){
+            [self.accStore left];
+            [self.accessoryView setImage:self.accStore.accessory.image];
         }
         
     } else if (direction == UISwipeGestureRecognizerDirectionRight){
@@ -135,7 +167,11 @@
         } else if (self.clothID == 3) {
             [self.bagStore right];
             [self.bagView setImage:self.bagStore.bag.image];
+        } else if (self.clothID == 4){
+            [self.accStore right];
+            [self.accessoryView setImage:self.accStore.accessory.image];
         }
+
     }
 }
 
@@ -152,5 +188,10 @@
 - (IBAction)selectBag:(id)sender {
     self.clothID = 3;
 }
+- (IBAction)selectAcc:(id)sender {
+    self.clothID = 4;
+}
+
+
 
 @end

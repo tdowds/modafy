@@ -69,7 +69,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTI-Kz-tlq">
-                                <rect key="frame" x="183" y="203" width="129" height="165"/>
+                                <rect key="frame" x="183" y="280" width="129" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id4-Wy-iyj">
@@ -78,7 +78,21 @@
                                 <state key="normal" image="pearls.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="selectAcc:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KMk-OB-2Qy"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku8-iq-Zfd">
+                                <rect key="frame" x="134" y="0.0" width="52" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="modafy">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhu-I2-BML">
+                                <rect key="frame" x="183" y="114" width="129" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.67511053470000004" green="0.44573443140000002" blue="0.96486497959999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,6 +103,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="accessoryView" destination="bhu-I2-BML" id="0Ol-jH-5Rp"/>
                         <outlet property="bagView" destination="GTI-Kz-tlq" id="0Km-cf-36L"/>
                         <outlet property="bottomsView" destination="U6s-hI-aWN" id="uGg-xd-Jzi"/>
                         <outlet property="imageView" destination="cwr-fT-5sf" id="5Cy-pO-qXK"/>
@@ -107,7 +122,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-86" y="-83"/>
+            <point key="canvasLocation" x="-117" y="-24"/>
         </scene>
     </scenes>
     <resources>
