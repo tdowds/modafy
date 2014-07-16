@@ -72,7 +72,9 @@
     ModShoe *secondShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s11"]];
     ModShoe *thirdShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s15"]];
 
-    
+    //HANDBAGS
+    ModBag *firstBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a3"]];
+    ModBag *secondBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a4"]];
     
     [self.store add:firstShirt];
     [self.store add:secondShirt];
@@ -89,6 +91,10 @@
     [self.shoesStore add:secondShoe];
     [self.shoesStore add:thirdShoe];
     [self.shoesView setImage:self.shoesStore.shoe.image];
+    
+    [self.bagStore add:firstBag];
+    [self.bagStore add:secondBag];
+    [self.bagView setImage:self.bagStore.bag.image];
 }
 
 - (void)didReceiveMemoryWarning
