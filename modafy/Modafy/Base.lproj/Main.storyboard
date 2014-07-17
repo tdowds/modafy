@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ue7-Nu-A4E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ue7-Nu-A4E">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -16,15 +16,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cwr-fT-5sf">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cwr-fT-5sf">
                                 <rect key="frame" x="32" y="80" width="139" height="124"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4OJ-Va-d6h" appends="YES" id="pq0-ks-Yc8"/>
+                                    <outletCollection property="gestureRecognizers" destination="xEs-a0-rLw" appends="YES" id="Z4t-Sg-A4V"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U6s-hI-aWN">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U6s-hI-aWN" userLabel="pantsView">
                                 <rect key="frame" x="25" y="210" width="152" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="eHb-0D-7cW" appends="YES" id="KKK-ds-q3O"/>
+                                    <outletCollection property="gestureRecognizers" destination="jnQ-6i-Fvc" appends="YES" id="3yx-xK-Z7Q"/>
+                                </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW7-Uh-6XA">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW7-Uh-6XA">
                                 <rect key="frame" x="24" y="518" width="38" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="shirt4.png">
@@ -54,11 +64,16 @@
                                     <action selector="selectShoe:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ifx-ix-yMY"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IpV-xP-z7e">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IpV-xP-z7e" userLabel="shoesView">
                                 <rect key="frame" x="56" y="415" width="77" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lGw-lJ-695" appends="YES" id="swJ-Kp-7Cq"/>
+                                    <outletCollection property="gestureRecognizers" destination="zZw-UV-Nnu" appends="YES" id="W6Z-r4-wRh"/>
+                                </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oN1-3Q-oNE">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oN1-3Q-oNE">
                                 <rect key="frame" x="218" y="518" width="38" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="black269.png">
@@ -68,11 +83,16 @@
                                     <action selector="selectBag:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RRe-cp-Qou"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTI-Kz-tlq">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTI-Kz-tlq" userLabel="bagView">
                                 <rect key="frame" x="201" y="228" width="102" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bsx-6S-iha" appends="YES" id="35B-Yz-jBK"/>
+                                    <outletCollection property="gestureRecognizers" destination="gq6-kf-t7L" appends="YES" id="EqO-LA-KRM"/>
+                                </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id4-Wy-iyj">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id4-Wy-iyj">
                                 <rect key="frame" x="262" y="518" width="37" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="pearls.png">
@@ -82,11 +102,16 @@
                                     <action selector="selectAcc:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KMk-OB-2Qy"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhu-I2-BML">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhu-I2-BML" userLabel="accView">
                                 <rect key="frame" x="201" y="87" width="102" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="aYX-8N-KQm" appends="YES" id="MZH-rJ-51Z"/>
+                                    <outletCollection property="gestureRecognizers" destination="mwh-wf-hdV" appends="YES" id="Rcp-BD-0yY"/>
+                                </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnB-Gm-OJd">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnB-Gm-OJd">
                                 <rect key="frame" x="108" y="519" width="45" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="female94.png">
@@ -96,9 +121,14 @@
                                     <action selector="selectDress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oOl-Fa-3EW"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ih-h5-zPM">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ih-h5-zPM" userLabel="dressView">
                                 <rect key="frame" x="14" y="96" width="174" height="299"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="J68-Dq-isN" appends="YES" id="gEB-JM-YTb"/>
+                                    <outletCollection property="gestureRecognizers" destination="baf-Lh-rIQ" appends="YES" id="eof-cV-99h"/>
+                                </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku8-iq-Zfd">
                                 <rect key="frame" x="124" y="20" width="66" height="43"/>
@@ -128,30 +158,82 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.67511053470000004" green="0.44573443140000002" blue="0.96486497959999995" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="vFm-8B-7tC" appends="YES" id="OWb-dF-Dx5"/>
-                            <outletCollection property="gestureRecognizers" destination="CRU-7n-Wg8" appends="YES" id="dBM-wS-9tA"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="TIA-3v-BZ8"/>
                     <connections>
+                        <outlet property="accButton" destination="id4-Wy-iyj" id="Afd-lE-eZv"/>
                         <outlet property="accessoryView" destination="bhu-I2-BML" id="0Ol-jH-5Rp"/>
+                        <outlet property="bagButton" destination="oN1-3Q-oNE" id="2Fm-Sg-m2y"/>
                         <outlet property="bagView" destination="GTI-Kz-tlq" id="0Km-cf-36L"/>
                         <outlet property="bottomsView" destination="U6s-hI-aWN" id="uGg-xd-Jzi"/>
+                        <outlet property="dressButton" destination="EnB-Gm-OJd" id="nvL-PQ-hoI"/>
                         <outlet property="dressView" destination="9Ih-h5-zPM" id="Mat-H4-guC"/>
                         <outlet property="imageView" destination="cwr-fT-5sf" id="5Cy-pO-qXK"/>
+                        <outlet property="pantsButton" destination="ilt-33-rMN" id="ga0-x1-3Wu"/>
+                        <outlet property="shirtButton" destination="GW7-Uh-6XA" id="Vat-YQ-dWy"/>
+                        <outlet property="shoesButton" destination="7bk-Nf-NVc" id="MsI-id-1ul"/>
                         <outlet property="shoesView" destination="IpV-xP-z7e" id="YZt-lY-aW2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="CRU-7n-Wg8">
+                <swipeGestureRecognizer direction="right" id="4OJ-Va-d6h" userLabel="shirtSwipeRight">
                     <connections>
-                        <action selector="handleSwipe:" destination="vXZ-lx-hvc" id="Md5-EL-iYa"/>
+                        <action selector="handleShirtSwipe:" destination="vXZ-lx-hvc" id="NEk-3b-noz"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="vFm-8B-7tC">
+                <swipeGestureRecognizer direction="left" id="xEs-a0-rLw" userLabel="shirtSwipeLeft">
                     <connections>
-                        <action selector="handleSwipe:" destination="vXZ-lx-hvc" id="hjW-25-mVm"/>
+                        <action selector="handleShirtSwipe:" destination="vXZ-lx-hvc" id="Syy-Vp-5dW"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="eHb-0D-7cW" userLabel="pantsSwipeRight">
+                    <connections>
+                        <action selector="handlePantsSwipe:" destination="vXZ-lx-hvc" id="nM0-El-WeT"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="jnQ-6i-Fvc" userLabel="pantsSwipeLeft">
+                    <connections>
+                        <action selector="handlePantsSwipe:" destination="vXZ-lx-hvc" id="1Dy-px-20d"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="lGw-lJ-695" userLabel="shoesSwipeRight">
+                    <connections>
+                        <action selector="handleShoesSwipe:" destination="vXZ-lx-hvc" id="SJp-ih-Ibh"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="zZw-UV-Nnu" userLabel="shoesSwipeLeft">
+                    <connections>
+                        <action selector="handleShoesSwipe:" destination="vXZ-lx-hvc" id="UgD-27-YC3"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="bsx-6S-iha" userLabel="bagSwipeRight">
+                    <connections>
+                        <action selector="handleBagSwipe:" destination="vXZ-lx-hvc" id="Cev-8A-cPC"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="gq6-kf-t7L" userLabel="bagSwipeLeft">
+                    <connections>
+                        <action selector="handleBagSwipe:" destination="vXZ-lx-hvc" id="Ef1-gK-MgO"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="aYX-8N-KQm" userLabel="accSwipeRight">
+                    <connections>
+                        <action selector="handleAccSwipe:" destination="vXZ-lx-hvc" id="jmD-ce-2qZ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="mwh-wf-hdV" userLabel="accSwipeLeft">
+                    <connections>
+                        <action selector="handleAccSwipe:" destination="vXZ-lx-hvc" id="jMq-cL-Xqz"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="J68-Dq-isN" userLabel="dressSwipeRight">
+                    <connections>
+                        <action selector="handleDressSwipe:" destination="vXZ-lx-hvc" id="b5m-jF-6T6"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="baf-Lh-rIQ" userLabel="dressSwipeLeft">
+                    <connections>
+                        <action selector="handleDressSwipe:" destination="vXZ-lx-hvc" id="V0v-qA-72T"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>

@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UIImageView *bagView;
 @property (weak, nonatomic) IBOutlet UIImageView *accessoryView;
 @property (weak, nonatomic) IBOutlet UIImageView *dressView;
- - (IBAction)handleSwipe:(UIGestureRecognizer *)sender;
-
+ - (IBAction)handleShirtSwipe:(UIGestureRecognizer *)sender;
+ - (IBAction)handlePantsSwipe:(UISwipeGestureRecognizer *)sender;
+ - (IBAction)handleShoesSwipe:(UISwipeGestureRecognizer *)sender;
+ - (IBAction)handleBagSwipe:(UISwipeGestureRecognizer *)sender;
+ - (IBAction)handleAccSwipe:(UISwipeGestureRecognizer *)sender;
+ - (IBAction)handleDressSwipe:(UISwipeGestureRecognizer *)sender;
 @end
