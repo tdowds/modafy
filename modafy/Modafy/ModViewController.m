@@ -82,6 +82,7 @@
     ModShirt *fourthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t3")])];
     ModShirt *fifthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t2")])];
     ModShirt *sixthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t15")])];
+    ModShirt *seventhShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t1")])];
    
     
     //PANTS
@@ -135,6 +136,7 @@
     [self.store add:fourthShirt];
     [self.store add:fifthShirt];
     [self.store add:sixthShirt];
+    [self.store add:seventhShirt];
     [self.imageView setImage:(self.store.shirt.image)];
     
     //ADD PANTS
