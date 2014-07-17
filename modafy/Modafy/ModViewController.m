@@ -28,8 +28,6 @@
 @property (strong, nonatomic) ModBagStore *bagStore;
 @property (strong, nonatomic) ModAccessoriesStore *accStore;
 @property (strong, nonatomic) ModDressStore *dressStore;
-
-@property int clothID;
 @end
 
 @implementation ModViewController
@@ -448,40 +446,4 @@
         }];
     }
 }
-
-
-
-
-- (IBAction)selectShirt:(id)sender {
-    self.clothID = 0;
-    self.imageView.hidden = NO;
-    self.bottomsView.hidden = NO;
-    self.dressView.hidden = YES;
-}
-
-- (IBAction)selectPants:(id)sender {
-    self.clothID = 1;
-    self.imageView.hidden = NO;
-    self.bottomsView.hidden = NO;
-    self.dressView.hidden = YES;
-}
-- (IBAction)selectShoe:(id)sender {
-    self.clothID = 2;
-}
-- (IBAction)selectBag:(id)sender {
-    self.clothID = 3;
-}
-- (IBAction)selectAcc:(id)sender {
-    self.clothID = 4;
-}
-- (IBAction)selectDress:(id)sender {
-    self.clothID = 5;
-    self.imageView.hidden = YES;
-    self.bottomsView.hidden = YES;
-    self.dressView.hidden = NO;
-    [self.dressView setImage:self.dressStore.dress.image];
-}
-
-
-
 @end
