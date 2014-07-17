@@ -161,17 +161,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="TIA-3v-BZ8"/>
                     <connections>
-                        <outlet property="accButton" destination="id4-Wy-iyj" id="Afd-lE-eZv"/>
                         <outlet property="accessoryView" destination="bhu-I2-BML" id="0Ol-jH-5Rp"/>
-                        <outlet property="bagButton" destination="oN1-3Q-oNE" id="2Fm-Sg-m2y"/>
                         <outlet property="bagView" destination="GTI-Kz-tlq" id="0Km-cf-36L"/>
                         <outlet property="bottomsView" destination="U6s-hI-aWN" id="uGg-xd-Jzi"/>
-                        <outlet property="dressButton" destination="EnB-Gm-OJd" id="nvL-PQ-hoI"/>
                         <outlet property="dressView" destination="9Ih-h5-zPM" id="Mat-H4-guC"/>
                         <outlet property="imageView" destination="cwr-fT-5sf" id="5Cy-pO-qXK"/>
-                        <outlet property="pantsButton" destination="ilt-33-rMN" id="ga0-x1-3Wu"/>
-                        <outlet property="shirtButton" destination="GW7-Uh-6XA" id="Vat-YQ-dWy"/>
-                        <outlet property="shoesButton" destination="7bk-Nf-NVc" id="MsI-id-1ul"/>
                         <outlet property="shoesView" destination="IpV-xP-z7e" id="YZt-lY-aW2"/>
                     </connections>
                 </viewController>
