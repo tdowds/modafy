@@ -78,55 +78,55 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     //SHIRTS
-    ModShirt *firstShirt = [[ModShirt alloc] initWithColor:(@"coral") size:(@"medium") type:(@"shirt") image:([UIImage imageNamed:(@"t12")])];
-    ModShirt *secondShirt = [[ModShirt alloc] initWithColor:(@"red") size:(@"small") type:(@"shirt") image:([UIImage imageNamed:(@"t5")])];
-    ModShirt *thirdShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t2")])];
-    ModShirt *fourthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t1")])];
-    ModShirt *fifthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t9")])];
-    ModShirt *sixthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t10")])];
-    ModShirt *seventhShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t14")])];
+    ModShirt *firstShirt = [[ModShirt alloc] initWithColor:(@"coral") size:(@"medium") type:(@"shirt") image:([UIImage imageNamed:(@"t8")])];
+    ModShirt *secondShirt = [[ModShirt alloc] initWithColor:(@"red") size:(@"small") type:(@"shirt") image:([UIImage imageNamed:(@"t7")])];
+    ModShirt *thirdShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t4")])];
+    ModShirt *fourthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t3")])];
+    ModShirt *fifthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t2")])];
+    ModShirt *sixthShirt = [[ModShirt alloc] initWithColor:(@"black") size:(@"x-small") type:(@"shirt") image:([UIImage imageNamed:(@"t15")])];
+   
     
     //PANTS
-    ModPants *firstPant = [[ModPants alloc] initWithColor:@"blue" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b3"]];
-    ModPants *secondPant = [[ModPants alloc] initWithColor:@"salmon" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b4"]];
-    ModPants *thirdPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b10")]];
-    ModPants *fourthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b1")]];
-    ModPants *fifthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b2")]];
-    ModPants *sixthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b5")]];
-    ModPants *seventhPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b11")]];
+    
+    ModPants *secondPant = [[ModPants alloc] initWithColor:@"salmon" size:@"4" length:30 width:30 type:@"pants" image:[UIImage imageNamed:@"b8"]];
+    ModPants *thirdPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b6")]];
+    ModPants *fourthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b4")]];
+    ModPants *fifthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b20")]];
+    ModPants *sixthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b2")]];
+    ModPants *seventhPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b13")]];
     ModPants *eigthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b12")]];
-    ModPants *ninthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b13")]];
-    ModPants *tenthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b14")]];
-    ModPants *eleventhPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b15")]];
+    ModPants *ninthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b11")]];
+    ModPants *tenthPant = [[ModPants alloc] initWithColor:@"striped" size:@"5" length:30 width:30 type:@"pants" image:[UIImage imageNamed:(@"b1")]];
+   
     
     //SHOES
-    ModShoe *firstShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s1"]];
-    ModShoe *secondShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s11"]];
-    ModShoe *thirdShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s15"]];
-    ModShoe *fourthShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s12"]];
-    ModShoe *fifthShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s20"]];
+    ModShoe *firstShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s9"]];
+    ModShoe *secondShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s6"]];
+    ModShoe *thirdShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s25"]];
+    ModShoe *fourthShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s2"]];
+    ModShoe *fifthShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s19"]];
+    ModShoe *sixthShoe = [[ModShoe alloc] initWithColor:@"" size:@"8" type:@"shoe" image:[UIImage imageNamed:@"s11"]];
 
     //HANDBAGS
-    ModBag *firstBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a3"]];
-    ModBag *secondBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a4"]];
-    ModBag *thirdBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a1"]];
-    ModBag *fourthBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a2"]];
-    ModBag *fifthBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a5"]];
+    ModBag *firstBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a5"]];
+    ModBag *secondBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a1"]];
+    ModBag *thirdBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a4"]];
+    ModBag *fourthBag = [[ModBag alloc] initWithImage:[UIImage imageNamed:@"a3"]];
 
     
     //ACCESSORIES
-    ModAccessories *firstAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf"]];
-    ModAccessories *secondAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf2"]];
-    ModAccessories *thirdAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"jeanhat.jpeg"]];
-    ModAccessories *fourthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"jneck.jpeg"]];
-    ModAccessories *fifthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"bluehat.jpeg"]];
-    ModAccessories *sixthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"scarf.jpeg"]];
+    ModAccessories *firstAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"e1"]];
+    ModAccessories *secondAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"e2"]];
+    ModAccessories *thirdAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"e3"]];
+    ModAccessories *fourthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"e4"]];
+    ModAccessories *fifthAcc = [[ModAccessories alloc] initWithImage:[UIImage imageNamed:@"e5"]];
     
     //DRESSES
     ModDress *firstDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t19"]];
     ModDress *secondDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t18"]];
     ModDress *thirdDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t17"]];
     ModDress *fourthDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t16"]];
+    ModDress *fifthDress = [[ModDress alloc] initWithColor:@"black" size:@"8" type: @"dress" image:[UIImage imageNamed:@"t20"]];
 
     
     
@@ -137,11 +137,9 @@
     [self.store add:fourthShirt];
     [self.store add:fifthShirt];
     [self.store add:sixthShirt];
-    [self.store add:seventhShirt];
     [self.imageView setImage:(self.store.shirt.image)];
     
     //ADD PANTS
-    [self.pantsStore add:firstPant];
     [self.pantsStore add:secondPant];
     [self.pantsStore add:thirdPant];
     [self.pantsStore add:fourthPant];
@@ -151,7 +149,6 @@
     [self.pantsStore add:eigthPant];
     [self.pantsStore add:ninthPant];
     [self.pantsStore add:tenthPant];
-    [self.pantsStore add:eleventhPant];
     [self.bottomsView setImage:self.pantsStore.pants.image];
     
     //ADD SHOES
@@ -160,6 +157,7 @@
     [self.shoesStore add:thirdShoe];
     [self.shoesStore add:fourthShoe];
     [self.shoesStore add:fifthShoe];
+    [self.shoesStore add:sixthShoe];
     [self.shoesView setImage:self.shoesStore.shoe.image];
     
     //ADD BAGS
@@ -167,7 +165,6 @@
     [self.bagStore add:secondBag];
     [self.bagStore add:thirdBag];
     [self.bagStore add:fourthBag];
-    [self.bagStore add:fifthBag];
     [self.bagView setImage:self.bagStore.bag.image];
     
     //ADD ACCESSORIES
@@ -176,7 +173,6 @@
     [self.accStore add:thirdAcc];
     [self.accStore add:fourthAcc];
     [self.accStore add:fifthAcc];
-    [self.accStore add:sixthAcc];
     [self.accessoryView setImage:self.accStore.accessory.image];
     
     //ADD DRESSES
@@ -184,6 +180,7 @@
     [self.dressStore add:secondDress];
     [self.dressStore add:thirdDress];
     [self.dressStore add:fourthDress];
+    [self.dressStore add:fifthDress];
     self.dressView.hidden = YES;
     
 }
