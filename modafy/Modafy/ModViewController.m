@@ -235,11 +235,11 @@
     UISwipeGestureRecognizerDirection direction = [(UISwipeGestureRecognizer *) sender direction];
     if (direction == UISwipeGestureRecognizerDirectionLeft) {
         [self.store left];
-        CGFloat n = 32;
+        CGFloat n = 35;
         [self swipeLeft:self.store.shirt view:self.imageView coordinate:n];
     } else if (direction == UISwipeGestureRecognizerDirectionRight) {
         [self.store right];
-        CGFloat n = 32;
+        CGFloat n = 35;
         [self swipeRight:self.store.shirt view:self.imageView coordinate:n];
     }
 }
@@ -248,11 +248,11 @@
     UISwipeGestureRecognizerDirection direction = [(UISwipeGestureRecognizer *) sender direction];
     if (direction == UISwipeGestureRecognizerDirectionLeft) {
         [self.pantsStore left];
-        CGFloat n = 25;
+        CGFloat n = 51;
         [self swipeLeft:self.pantsStore.pants view:self.bottomsView coordinate:n];
     } else if (UISwipeGestureRecognizerDirectionRight) {
         [self.pantsStore right];
-        CGFloat n = 25;
+        CGFloat n = 51;
         [self swipeRight:self.pantsStore.pants view:self.bottomsView coordinate:n];
     }
 }
@@ -261,11 +261,11 @@
     UISwipeGestureRecognizerDirection direction = [(UISwipeGestureRecognizer *) sender direction];
     if (direction == UISwipeGestureRecognizerDirectionLeft) {
         [self.shoesStore left];
-        CGFloat n = 56;
+        CGFloat n = 81;
         [self swipeLeft:self.shoesStore.shoe view:self.shoesView coordinate:n];
     } else if (direction == UISwipeGestureRecognizerDirectionRight) {
         [self.shoesStore right];
-        CGFloat n = 56;
+        CGFloat n = 81;
         [self swipeRight:self.shoesStore.shoe view:self.shoesView coordinate:n];
     }
 }
@@ -300,11 +300,11 @@
     UISwipeGestureRecognizerDirection direction = [(UISwipeGestureRecognizer *) sender direction];
     if (direction == UISwipeGestureRecognizerDirectionLeft) {
         [self.dressStore left];
-        CGFloat n = 14;
+        CGFloat n = 45;
         [self swipeLeft:self.dressStore.dress view:self.dressView coordinate:n];
     } else if (direction == UISwipeGestureRecognizerDirectionRight) {
         [self.dressStore right];
-        CGFloat n = 14;
+        CGFloat n = 45;
         [self swipeRight:self.dressStore.dress view:self.dressView coordinate:n];
     }
 }
