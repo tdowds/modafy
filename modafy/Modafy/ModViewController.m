@@ -241,6 +241,50 @@
         [self.store right];
         CGFloat n = 35;
         [self swipeRight:self.store.shirt view:self.imageView coordinate:n];
+    } else if (direction == UISwipeGestureRecognizerDirectionUp) {
+        [UIView animateWithDuration:.3 animations:^{
+            CGRect shirtFrame = self.imageView.frame;
+            CGRect pantsFrame = self.bottomsView.frame;
+            shirtFrame.origin.y = -self.bottomsView.frame.origin.y - 300;
+            pantsFrame.origin.y = -300;
+            self.imageView.frame = shirtFrame;
+            self.bottomsView.frame = pantsFrame;
+        } completion:^(BOOL finished) {
+            self.imageView.hidden = YES;
+            self.bottomsView.hidden = YES;
+            CGRect dressFrame = self.dressView.frame;
+            dressFrame.origin.y = self.view.frame.size.height + 111;
+            self.dressView.frame = dressFrame;
+            self.dressView.hidden = NO;
+            [self.dressView setImage:self.dressStore.dress.image];
+            [UIView animateWithDuration:.3 animations:^{
+                CGRect dressFrame = self.dressView.frame;
+                dressFrame.origin.y = 111;
+                self.dressView.frame = dressFrame;
+            }];
+        }];
+    } else if (direction == UISwipeGestureRecognizerDirectionDown) {
+        [UIView animateWithDuration:.3 animations:^{
+            CGRect shirtFrame = self.imageView.frame;
+            CGRect pantsFrame = self.bottomsView.frame;
+            shirtFrame.origin.y = self.imageView.frame.origin.y + self.view.frame.size.height;
+            pantsFrame.origin.y = self.imageView.frame.origin.y + self.view.frame.size.height;
+            self.imageView.frame = shirtFrame;
+            self.bottomsView.frame = pantsFrame;
+        } completion:^(BOOL finished) {
+            self.imageView.hidden = YES;
+            self.bottomsView.hidden = YES;
+            CGRect dressFrame = self.dressView.frame;
+            dressFrame.origin.y = -111;
+            self.dressView.frame = dressFrame;
+            self.dressView.hidden = NO;
+            [self.dressView setImage:self.dressStore.dress.image];
+            [UIView animateWithDuration:.3 animations:^{
+                CGRect dressFrame = self.dressView.frame;
+                dressFrame.origin.y = 111;
+                self.dressView.frame = dressFrame;
+            }];
+        }];
     }
 }
 
@@ -250,10 +294,54 @@
         [self.pantsStore left];
         CGFloat n = 51;
         [self swipeLeft:self.pantsStore.pants view:self.bottomsView coordinate:n];
-    } else if (UISwipeGestureRecognizerDirectionRight) {
+    } else if (direction == UISwipeGestureRecognizerDirectionRight) {
         [self.pantsStore right];
         CGFloat n = 51;
         [self swipeRight:self.pantsStore.pants view:self.bottomsView coordinate:n];
+    } else if (direction == UISwipeGestureRecognizerDirectionUp) {
+        [UIView animateWithDuration:.3 animations:^{
+            CGRect shirtFrame = self.imageView.frame;
+            CGRect pantsFrame = self.bottomsView.frame;
+            shirtFrame.origin.y = -self.bottomsView.frame.origin.y -300;
+            pantsFrame.origin.y = -300;
+            self.imageView.frame = shirtFrame;
+            self.bottomsView.frame = pantsFrame;
+        } completion:^(BOOL finished) {
+            self.imageView.hidden = YES;
+            self.bottomsView.hidden = YES;
+            CGRect dressFrame = self.dressView.frame;
+            dressFrame.origin.y = self.view.frame.size.height + 111;
+            self.dressView.frame = dressFrame;
+            self.dressView.hidden = NO;
+            [self.dressView setImage:self.dressStore.dress.image];
+            [UIView animateWithDuration:.3 animations:^{
+                CGRect dressFrame = self.dressView.frame;
+                dressFrame.origin.y = 111;
+                self.dressView.frame = dressFrame;
+            }];
+        }];
+    } else if (direction == UISwipeGestureRecognizerDirectionDown) {
+        [UIView animateWithDuration:.3 animations:^{
+            CGRect shirtFrame = self.imageView.frame;
+            CGRect pantsFrame = self.bottomsView.frame;
+            shirtFrame.origin.y = self.imageView.frame.origin.y + self.view.frame.size.height;
+            pantsFrame.origin.y = self.imageView.frame.origin.y + self.view.frame.size.height;
+            self.imageView.frame = shirtFrame;
+            self.bottomsView.frame = pantsFrame;
+        } completion:^(BOOL finished) {
+            self.imageView.hidden = YES;
+            self.bottomsView.hidden = YES;
+            CGRect dressFrame = self.dressView.frame;
+            dressFrame.origin.y = -111;
+            self.dressView.frame = dressFrame;
+            self.dressView.hidden = NO;
+            [self.dressView setImage:self.dressStore.dress.image];
+            [UIView animateWithDuration:.3 animations:^{
+                CGRect dressFrame = self.dressView.frame;
+                dressFrame.origin.y = 111;
+                self.dressView.frame = dressFrame;
+            }];
+        }];
     }
 }
 
@@ -306,6 +394,58 @@
         [self.dressStore right];
         CGFloat n = 45;
         [self swipeRight:self.dressStore.dress view:self.dressView coordinate:n];
+    } else if (direction == UISwipeGestureRecognizerDirectionUp) {
+        [UIView animateWithDuration:.3 animations:^{
+            CGRect dressFrame = self.dressView.frame;
+            dressFrame.origin.y  = -300;
+            self.dressView.frame = dressFrame;
+        } completion:^(BOOL finished) {
+            self.dressView.hidden = YES;
+            CGRect shirtFrame = self.imageView.frame;
+            CGRect pantsFrame = self.bottomsView.frame;
+            shirtFrame.origin.y = self.view.frame.size.height + +self.imageView.frame.size.height;
+            pantsFrame.origin.y = self.bottomsView.frame.size.height + self.view.frame.size.height;
+            self.imageView.frame = shirtFrame;
+            self.bottomsView.frame = pantsFrame;
+            self.imageView.hidden = NO;
+            self.bottomsView.hidden = NO;
+            [self.imageView setImage:self.store.shirt.image];
+            [self.bottomsView setImage:self.pantsStore.pants.image];
+            [UIView animateWithDuration:.3 animations:^{
+                CGRect shirtFrame = self.imageView.frame;
+                CGRect pantsFrame = self.bottomsView.frame;
+                shirtFrame.origin.y = 53;
+                pantsFrame.origin.y = 224;
+                self.imageView.frame = shirtFrame;
+                self.bottomsView.frame = pantsFrame;
+            }];
+        }];
+    } else if (direction == UISwipeGestureRecognizerDirectionDown) {
+        [UIView animateWithDuration:.3 animations:^{
+            CGRect dressFrame = self.dressView.frame;
+            dressFrame.origin.y  = self.dressView.frame.origin.y + self.view.frame.size.height;
+            self.dressView.frame = dressFrame;
+        } completion:^(BOOL finished) {
+            self.dressView.hidden = YES;
+            CGRect shirtFrame = self.imageView.frame;
+            CGRect pantsFrame = self.bottomsView.frame;
+            shirtFrame.origin.y = -self.imageView.frame.size.height;
+            pantsFrame.origin.y = -self.bottomsView.frame.size.height;
+            self.imageView.frame = shirtFrame;
+            self.bottomsView.frame = pantsFrame;
+            self.imageView.hidden = NO;
+            self.bottomsView.hidden = NO;
+            [self.imageView setImage:self.store.shirt.image];
+            [self.bottomsView setImage:self.pantsStore.pants.image];
+            [UIView animateWithDuration:.3 animations:^{
+                CGRect shirtFrame = self.imageView.frame;
+                CGRect pantsFrame = self.bottomsView.frame;
+                shirtFrame.origin.y = 53;
+                pantsFrame.origin.y = 224;
+                self.imageView.frame = shirtFrame;
+                self.bottomsView.frame = pantsFrame;
+            }];
+        }];
     }
 }
 

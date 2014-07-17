@@ -23,6 +23,8 @@
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="4OJ-Va-d6h" appends="YES" id="pq0-ks-Yc8"/>
                                     <outletCollection property="gestureRecognizers" destination="xEs-a0-rLw" appends="YES" id="Z4t-Sg-A4V"/>
+                                    <outletCollection property="gestureRecognizers" destination="6yM-c7-ZCu" appends="YES" id="To5-a8-7IL"/>
+                                    <outletCollection property="gestureRecognizers" destination="2ii-A7-HL8" appends="YES" id="3fd-sh-zQz"/>
                                 </connections>
                             </imageView>
                             <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U6s-hI-aWN" userLabel="pantsView">
@@ -32,6 +34,8 @@
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="eHb-0D-7cW" appends="YES" id="KKK-ds-q3O"/>
                                     <outletCollection property="gestureRecognizers" destination="jnQ-6i-Fvc" appends="YES" id="3yx-xK-Z7Q"/>
+                                    <outletCollection property="gestureRecognizers" destination="wfN-gG-2B8" appends="YES" id="ZKx-Wj-af4"/>
+                                    <outletCollection property="gestureRecognizers" destination="WfQ-dP-mGa" appends="YES" id="n0X-Jt-oU9"/>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW7-Uh-6XA">
@@ -128,6 +132,8 @@
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="J68-Dq-isN" appends="YES" id="gEB-JM-YTb"/>
                                     <outletCollection property="gestureRecognizers" destination="baf-Lh-rIQ" appends="YES" id="eof-cV-99h"/>
+                                    <outletCollection property="gestureRecognizers" destination="QaG-GX-y1P" appends="YES" id="kcT-iw-cpl"/>
+                                    <outletCollection property="gestureRecognizers" destination="Pt7-4r-Zfi" appends="YES" id="1vr-w0-VOT"/>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku8-iq-Zfd">
@@ -180,6 +186,16 @@
                         <action selector="handleShirtSwipe:" destination="vXZ-lx-hvc" id="Syy-Vp-5dW"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="6yM-c7-ZCu" userLabel="shirtSwipeUp">
+                    <connections>
+                        <action selector="handleShirtSwipe:" destination="vXZ-lx-hvc" id="Duc-Ov-tvP"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="2ii-A7-HL8" userLabel="shirtSwipeDown">
+                    <connections>
+                        <action selector="handleShirtSwipe:" destination="vXZ-lx-hvc" id="vkX-n2-h5J"/>
+                    </connections>
+                </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="right" id="eHb-0D-7cW" userLabel="pantsSwipeRight">
                     <connections>
                         <action selector="handlePantsSwipe:" destination="vXZ-lx-hvc" id="nM0-El-WeT"/>
@@ -188,6 +204,16 @@
                 <swipeGestureRecognizer direction="left" id="jnQ-6i-Fvc" userLabel="pantsSwipeLeft">
                     <connections>
                         <action selector="handlePantsSwipe:" destination="vXZ-lx-hvc" id="1Dy-px-20d"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="wfN-gG-2B8" userLabel="pantsSwipeUp">
+                    <connections>
+                        <action selector="handlePantsSwipe:" destination="vXZ-lx-hvc" id="wdV-rt-rvE"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="WfQ-dP-mGa" userLabel="pantsSwipeDown">
+                    <connections>
+                        <action selector="handlePantsSwipe:" destination="vXZ-lx-hvc" id="uhK-dH-T6K"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="right" id="lGw-lJ-695" userLabel="shoesSwipeRight">
@@ -228,6 +254,16 @@
                 <swipeGestureRecognizer direction="left" id="baf-Lh-rIQ" userLabel="dressSwipeLeft">
                     <connections>
                         <action selector="handleDressSwipe:" destination="vXZ-lx-hvc" id="V0v-qA-72T"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="QaG-GX-y1P" userLabel="dressSwipeUp">
+                    <connections>
+                        <action selector="handleDressSwipe:" destination="vXZ-lx-hvc" id="eNX-ef-OLD"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="Pt7-4r-Zfi" userLabel="dressSwipeDown">
+                    <connections>
+                        <action selector="handleDressSwipe:" destination="vXZ-lx-hvc" id="AmX-Qy-cyK"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
