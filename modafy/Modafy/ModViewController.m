@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Modafy. All rights reserved.
 //
 
+#import <Parse/Parse.h>
+
 #import "ModViewController.h"
 #import "ModTopStore.h"
 #import "ModPantsStore.h"
