@@ -188,6 +188,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)addClothing:(UIButton *)sender {
+    //TODO: Create backend and create objects in backend here.
+}
+
 - (void)swipeLeft:(ModObject *)currentPiece view:(UIImageView *)view coordinate:(CGFloat)coord
 {
     [UIView animateWithDuration:0.3 animations:^{
