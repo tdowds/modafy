@@ -13,7 +13,6 @@
 		6910F08019769E16009968AD /* ModDressStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6910F07F19769E16009968AD /* ModDressStore.m */; };
 		6910F0831976C728009968AD /* ModObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6910F0821976C728009968AD /* ModObject.m */; };
 		691852DE197542470098974F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DD197542470098974F /* Foundation.framework */; };
-		691852E0197542470098974F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DF197542470098974F /* CoreGraphics.framework */; };
 		691852E2197542470098974F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852E1197542470098974F /* UIKit.framework */; };
 		691852E8197542470098974F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 691852E6197542470098974F /* InfoPlist.strings */; };
 		691852EA197542470098974F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691852E9197542470098974F /* main.m */; };
@@ -29,20 +28,22 @@
 		6921375819767A300062023C /* ModItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921375719767A300062023C /* ModItems.m */; };
 		6921375D19767B490062023C /* ModBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921375C19767B490062023C /* ModBag.m */; };
 		6921376019767B6A0062023C /* ModBagStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921375F19767B6A0062023C /* ModBagStore.m */; };
-		692C9EFE1979756E00DA59BF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9EFD1979756E00DA59BF /* Parse.framework */; };
-		692C9F08197975A300DA59BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9EFF197975A300DA59BF /* AudioToolbox.framework */; };
-		692C9F09197975A300DA59BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F00197975A300DA59BF /* CFNetwork.framework */; };
-		692C9F0A197975A300DA59BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F01197975A300DA59BF /* CoreLocation.framework */; };
-		692C9F0B197975A300DA59BF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F02197975A300DA59BF /* libz.dylib */; };
-		692C9F0C197975A300DA59BF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F03197975A300DA59BF /* MobileCoreServices.framework */; };
-		692C9F0D197975A300DA59BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F04197975A300DA59BF /* QuartzCore.framework */; };
-		692C9F0E197975A300DA59BF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F05197975A300DA59BF /* Security.framework */; };
-		692C9F0F197975A300DA59BF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F06197975A300DA59BF /* StoreKit.framework */; };
-		692C9F10197975A300DA59BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F07197975A300DA59BF /* SystemConfiguration.framework */; };
 		6940F22B1978041300836498 /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6940F22A1978041300836498 /* b1.png */; };
 		6940F22F1978047000836498 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6940F22E1978047000836498 /* t2.png */; };
 		69B6231D1976688F0028AC51 /* ModShoeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B6231C1976688F0028AC51 /* ModShoeStore.m */; };
 		69B62320197668D60028AC51 /* ModShoe.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B6231F197668D60028AC51 /* ModShoe.m */; };
+		69C459B0197CFD6E00F06D85 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69C459AE197CFD6E00F06D85 /* BuiltIO.bundle */; };
+		69C459B1197CFD6E00F06D85 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C459AF197CFD6E00F06D85 /* BuiltIO.framework */; };
+		69C459B2197CFDCA00F06D85 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F00197975A300DA59BF /* CFNetwork.framework */; };
+		69C459B3197CFDCA00F06D85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691852DF197542470098974F /* CoreGraphics.framework */; };
+		69C459B4197CFDCA00F06D85 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F01197975A300DA59BF /* CoreLocation.framework */; };
+		69C459B5197CFDCA00F06D85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F04197975A300DA59BF /* QuartzCore.framework */; };
+		69C459B6197CFDCA00F06D85 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F05197975A300DA59BF /* Security.framework */; };
+		69C459B7197CFDCA00F06D85 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C9F07197975A300DA59BF /* SystemConfiguration.framework */; };
+		69C459BC197CFDCA00F06D85 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C459B8197CFDCA00F06D85 /* Accounts.framework */; };
+		69C459BD197CFDCA00F06D85 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C459B9197CFDCA00F06D85 /* CoreTelephony.framework */; };
+		69C459BE197CFDCA00F06D85 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C459BA197CFDCA00F06D85 /* Social.framework */; };
+		69C459BF197CFDCA00F06D85 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C459BB197CFDCA00F06D85 /* Twitter.framework */; };
 		69CFD73719755241008243B5 /* ModClothing.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD73019755241008243B5 /* ModClothing.m */; };
 		69CFD73819755241008243B5 /* ModPants.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD73219755241008243B5 /* ModPants.m */; };
 		69CFD73919755241008243B5 /* ModShirt.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD73419755241008243B5 /* ModShirt.m */; };
@@ -146,7 +147,6 @@
 		6921375C19767B490062023C /* ModBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModBag.m; sourceTree = "<group>"; };
 		6921375E19767B6A0062023C /* ModBagStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModBagStore.h; sourceTree = "<group>"; };
 		6921375F19767B6A0062023C /* ModBagStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModBagStore.m; sourceTree = "<group>"; };
-		692C9EFD1979756E00DA59BF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		692C9EFF197975A300DA59BF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		692C9F00197975A300DA59BF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		692C9F01197975A300DA59BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -162,6 +162,12 @@
 		69B6231C1976688F0028AC51 /* ModShoeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModShoeStore.m; sourceTree = "<group>"; };
 		69B6231E197668D60028AC51 /* ModShoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModShoe.h; sourceTree = "<group>"; };
 		69B6231F197668D60028AC51 /* ModShoe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModShoe.m; sourceTree = "<group>"; };
+		69C459AE197CFD6E00F06D85 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
+		69C459AF197CFD6E00F06D85 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
+		69C459B8197CFDCA00F06D85 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		69C459B9197CFDCA00F06D85 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		69C459BA197CFDCA00F06D85 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		69C459BB197CFDCA00F06D85 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		69CFD72F19755241008243B5 /* ModClothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModClothing.h; sourceTree = "<group>"; };
 		69CFD73019755241008243B5 /* ModClothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModClothing.m; sourceTree = "<group>"; };
 		69CFD73119755241008243B5 /* ModPants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModPants.h; sourceTree = "<group>"; };
@@ -229,18 +235,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				692C9F08197975A300DA59BF /* AudioToolbox.framework in Frameworks */,
-				692C9F09197975A300DA59BF /* CFNetwork.framework in Frameworks */,
-				692C9F0A197975A300DA59BF /* CoreLocation.framework in Frameworks */,
-				692C9F0B197975A300DA59BF /* libz.dylib in Frameworks */,
-				692C9F0C197975A300DA59BF /* MobileCoreServices.framework in Frameworks */,
-				692C9F0D197975A300DA59BF /* QuartzCore.framework in Frameworks */,
-				692C9F0E197975A300DA59BF /* Security.framework in Frameworks */,
-				692C9F0F197975A300DA59BF /* StoreKit.framework in Frameworks */,
-				692C9F10197975A300DA59BF /* SystemConfiguration.framework in Frameworks */,
-				691852E0197542470098974F /* CoreGraphics.framework in Frameworks */,
+				69C459BC197CFDCA00F06D85 /* Accounts.framework in Frameworks */,
+				69C459BD197CFDCA00F06D85 /* CoreTelephony.framework in Frameworks */,
+				69C459BE197CFDCA00F06D85 /* Social.framework in Frameworks */,
+				69C459BF197CFDCA00F06D85 /* Twitter.framework in Frameworks */,
+				69C459B2197CFDCA00F06D85 /* CFNetwork.framework in Frameworks */,
+				69C459B3197CFDCA00F06D85 /* CoreGraphics.framework in Frameworks */,
+				69C459B4197CFDCA00F06D85 /* CoreLocation.framework in Frameworks */,
+				69C459B5197CFDCA00F06D85 /* QuartzCore.framework in Frameworks */,
+				69C459B6197CFDCA00F06D85 /* Security.framework in Frameworks */,
+				69C459B7197CFDCA00F06D85 /* SystemConfiguration.framework in Frameworks */,
 				691852E2197542470098974F /* UIKit.framework in Frameworks */,
-				692C9EFE1979756E00DA59BF /* Parse.framework in Frameworks */,
+				69C459B1197CFD6E00F06D85 /* BuiltIO.framework in Frameworks */,
 				691852DE197542470098974F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +331,8 @@
 		691852D1197542470098974F = {
 			isa = PBXGroup;
 			children = (
-				692C9EFD1979756E00DA59BF /* Parse.framework */,
+				69C459AE197CFD6E00F06D85 /* BuiltIO.bundle */,
+				69C459AF197CFD6E00F06D85 /* BuiltIO.framework */,
 				691852E3197542470098974F /* modafy */,
 				69185302197542470098974F /* modafyTests */,
 				691852DC197542470098974F /* Frameworks */,
@@ -345,6 +352,10 @@
 		691852DC197542470098974F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69C459B8197CFDCA00F06D85 /* Accounts.framework */,
+				69C459B9197CFDCA00F06D85 /* CoreTelephony.framework */,
+				69C459BA197CFDCA00F06D85 /* Social.framework */,
+				69C459BB197CFDCA00F06D85 /* Twitter.framework */,
 				692C9EFF197975A300DA59BF /* AudioToolbox.framework */,
 				692C9F00197975A300DA59BF /* CFNetwork.framework */,
 				692C9F01197975A300DA59BF /* CoreLocation.framework */,
@@ -586,6 +597,7 @@
 				D3EC1A841977DB7300EC60CE /* shoppingBag.png in Resources */,
 				D3A087781976CD640071F59F /* unnamed.png in Resources */,
 				D3EC1ADE1977E5A000EC60CE /* e3.png in Resources */,
+				69C459B0197CFD6E00F06D85 /* BuiltIO.bundle in Resources */,
 				D3EC1AD11977E4CC00EC60CE /* a4.png in Resources */,
 				D3A087761976CD480071F59F /* refresh21.png in Resources */,
 				D3EC1AEC1977E61700EC60CE /* s11.png in Resources */,
@@ -802,6 +814,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "modafy/modafy-Prefix.pch";
 				INFOPLIST_FILE = "modafy/modafy-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -819,6 +832,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "modafy/modafy-Prefix.pch";
 				INFOPLIST_FILE = "modafy/modafy-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
