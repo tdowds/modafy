@@ -30,6 +30,8 @@
 		6921376019767B6A0062023C /* ModBagStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921375F19767B6A0062023C /* ModBagStore.m */; };
 		6940F22B1978041300836498 /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6940F22A1978041300836498 /* b1.png */; };
 		6940F22F1978047000836498 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6940F22E1978047000836498 /* t2.png */; };
+		6985DE78197D0BFF00E6125C /* ModLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6985DE77197D0BFF00E6125C /* ModLoginViewController.m */; };
+		6985DE7E197D0F1900E6125C /* ModRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6985DE7D197D0F1900E6125C /* ModRegisterViewController.m */; };
 		69B6231D1976688F0028AC51 /* ModShoeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B6231C1976688F0028AC51 /* ModShoeStore.m */; };
 		69B62320197668D60028AC51 /* ModShoe.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B6231F197668D60028AC51 /* ModShoe.m */; };
 		69C459B0197CFD6E00F06D85 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69C459AE197CFD6E00F06D85 /* BuiltIO.bundle */; };
@@ -158,6 +160,10 @@
 		692C9F07197975A300DA59BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6940F22A1978041300836498 /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b1.png; path = ../../../Downloads/b1.png; sourceTree = "<group>"; };
 		6940F22E1978047000836498 /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t2.png; path = ../../../Downloads/t2.png; sourceTree = "<group>"; };
+		6985DE76197D0BFF00E6125C /* ModLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModLoginViewController.h; sourceTree = "<group>"; };
+		6985DE77197D0BFF00E6125C /* ModLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModLoginViewController.m; sourceTree = "<group>"; };
+		6985DE7C197D0F1900E6125C /* ModRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModRegisterViewController.h; sourceTree = "<group>"; };
+		6985DE7D197D0F1900E6125C /* ModRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModRegisterViewController.m; sourceTree = "<group>"; };
 		69B6231B1976688F0028AC51 /* ModShoeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModShoeStore.h; sourceTree = "<group>"; };
 		69B6231C1976688F0028AC51 /* ModShoeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModShoeStore.m; sourceTree = "<group>"; };
 		69B6231E197668D60028AC51 /* ModShoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModShoe.h; sourceTree = "<group>"; };
@@ -376,9 +382,13 @@
 		691852E3197542470098974F /* modafy */ = {
 			isa = PBXGroup;
 			children = (
+				6985DE7C197D0F1900E6125C /* ModRegisterViewController.h */,
+				6985DE7D197D0F1900E6125C /* ModRegisterViewController.m */,
 				691852EC197542470098974F /* ModAppDelegate.h */,
 				691852ED197542470098974F /* ModAppDelegate.m */,
 				691852EF197542470098974F /* Main.storyboard */,
+				6985DE76197D0BFF00E6125C /* ModLoginViewController.h */,
+				6985DE77197D0BFF00E6125C /* ModLoginViewController.m */,
 				691852F2197542470098974F /* ModViewController.h */,
 				691852F3197542470098974F /* ModViewController.m */,
 				69CFD72E19755241008243B5 /* Models */,
@@ -671,7 +681,9 @@
 				69CFD73819755241008243B5 /* ModPants.m in Sources */,
 				69B6231D1976688F0028AC51 /* ModShoeStore.m in Sources */,
 				691852EA197542470098974F /* main.m in Sources */,
+				6985DE7E197D0F1900E6125C /* ModRegisterViewController.m in Sources */,
 				6921375D19767B490062023C /* ModBag.m in Sources */,
+				6985DE78197D0BFF00E6125C /* ModLoginViewController.m in Sources */,
 				6910F07D19769DE9009968AD /* ModDress.m in Sources */,
 				691852F4197542470098974F /* ModViewController.m in Sources */,
 				691852EE197542470098974F /* ModAppDelegate.m in Sources */,
