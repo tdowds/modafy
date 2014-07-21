@@ -382,15 +382,10 @@
 		691852E3197542470098974F /* modafy */ = {
 			isa = PBXGroup;
 			children = (
-				6985DE7C197D0F1900E6125C /* ModRegisterViewController.h */,
-				6985DE7D197D0F1900E6125C /* ModRegisterViewController.m */,
 				691852EC197542470098974F /* ModAppDelegate.h */,
 				691852ED197542470098974F /* ModAppDelegate.m */,
+				69A5EDA8197D4B970081FD18 /* Controllers */,
 				691852EF197542470098974F /* Main.storyboard */,
-				6985DE76197D0BFF00E6125C /* ModLoginViewController.h */,
-				6985DE77197D0BFF00E6125C /* ModLoginViewController.m */,
-				691852F2197542470098974F /* ModViewController.h */,
-				691852F3197542470098974F /* ModViewController.m */,
 				69CFD72E19755241008243B5 /* Models */,
 				691852F5197542470098974F /* Images.xcassets */,
 				691852E4197542470098974F /* Supporting Files */,
@@ -479,6 +474,19 @@
 				6921375719767A300062023C /* ModItems.m */,
 			);
 			name = Items;
+			sourceTree = "<group>";
+		};
+		69A5EDA8197D4B970081FD18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6985DE76197D0BFF00E6125C /* ModLoginViewController.h */,
+				6985DE77197D0BFF00E6125C /* ModLoginViewController.m */,
+				6985DE7C197D0F1900E6125C /* ModRegisterViewController.h */,
+				6985DE7D197D0F1900E6125C /* ModRegisterViewController.m */,
+				691852F2197542470098974F /* ModViewController.h */,
+				691852F3197542470098974F /* ModViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		69CFD72E19755241008243B5 /* Models */ = {
