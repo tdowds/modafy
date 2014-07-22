@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *emailError;
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @property (weak, nonatomic) IBOutlet UITextField *confirmPasswordField;
+@property (weak, nonatomic) IBOutlet UIButton *registerButton;
 @end
 
 @implementation ModRegisterViewController
@@ -31,6 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _registerButton.layer.cornerRadius = 7;
     // Do any additional setup after loading the view.
 }
 
@@ -46,7 +48,8 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
+    // Get the new view controller using [segue
+ destinationViewController].
     // Pass the selected object to the new view controller.
 }
 */
@@ -64,6 +67,11 @@
     } onError:^(NSError *error) {
         NSLog(@"Register unsuccessful");
     }];
+}
+
+-(UIButton *)registerButton {
+    _registerButton = [UIButton buttonWithType:(UIButtonTypeRoundedRect)];
+    return _registerButton;
 }
 
 

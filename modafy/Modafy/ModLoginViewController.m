@@ -8,10 +8,13 @@
 
 #import "ModLoginViewController.h"
 #import <BuiltIO/BuiltIO.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ModLoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *emailField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
+@property (strong, nonatomic) IBOutlet UIButton *loginButton;
+@property (weak, nonatomic) IBOutlet UIButton *signUpButton;
 
 @end
 
@@ -29,7 +32,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    _loginButton.layer.cornerRadius = 7;
+    _signUpButton.layer.cornerRadius = 7;
+
+       // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,8 +60,25 @@
     [user loginWithEmail:self.emailField.text andPassword:self.passwordField.text OnSuccess:^{
         [self performSegueWithIdentifier:@"loginSuccessful" sender:self];
     } onError:^(NSError *error) {
+        //make error pop up
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Login Unsuccessful"
+            message:@"Please attempt to login again."
+            delegate:nil
+            cancelButtonTitle:@"OK"
+            otherButtonTitles:nil];
+        [alert show];
         NSLog(@"login unsuccessful");
     }];
+}
+
+- (UIButton *)loginButton {
+    _loginButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+       return _loginButton;
+}
+
+- (UIButton *)signUpButton {
+    _signUpButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    return _signUpButton;
 }
 
 

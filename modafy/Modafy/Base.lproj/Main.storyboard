@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="tJA-Zh-8v9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="tJA-Zh-8v9">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -276,21 +276,22 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rPJ-UT-FvA">
-                                <rect key="frame" x="61" y="203" width="198" height="30"/>
+                                <rect key="frame" x="61" y="229" width="198" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dxn-6E-8X9">
-                                <rect key="frame" x="61" y="241" width="198" height="30"/>
+                                <rect key="frame" x="61" y="267" width="198" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raC-U8-dB2">
-                                <rect key="frame" x="61" y="292" width="198" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raC-U8-dB2">
+                                <rect key="frame" x="190" y="305" width="69" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="0.25" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="18"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.50196081399917603" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="0.0" blue="0.50196081400000003" alpha="0.25" colorSpace="calibratedRGB"/>
@@ -300,9 +301,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bb-b9-et9">
-                                <rect key="frame" x="61" y="364" width="198" height="30"/>
+                                <rect key="frame" x="46" y="483" width="229" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="0.25" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -311,12 +313,18 @@
                                     <segue destination="Dvg-i1-J2o" kind="modal" id="tkn-re-j2b"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="modafy-company-png8.png" translatesAutoresizingMaskIntoConstraints="NO" id="JQl-U4-4M2">
+                                <rect key="frame" x="58" y="92" width="204" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="emailField" destination="rPJ-UT-FvA" id="deV-Dv-fUU"/>
+                        <outlet property="loginButton" destination="raC-U8-dB2" id="ePZ-ts-BDF"/>
                         <outlet property="passwordField" destination="dxn-6E-8X9" id="3tg-4p-uP0"/>
+                        <outlet property="signUpButton" destination="9Bb-b9-et9" id="lHu-xO-FSN"/>
                         <segue destination="Ue7-Nu-A4E" kind="modal" identifier="loginSuccessful" id="AyZ-LU-pXq"/>
                     </connections>
                 </viewController>
@@ -343,21 +351,22 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qdw-Mf-Fq2">
-                                <rect key="frame" x="56" y="214" width="209" height="30"/>
+                                <rect key="frame" x="56" y="199" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confrim Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PWu-i0-J5L">
-                                <rect key="frame" x="56" y="270" width="209" height="30"/>
+                                <rect key="frame" x="56" y="237" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxK-NP-SEy">
-                                <rect key="frame" x="56" y="339" width="209" height="30"/>
+                                <rect key="frame" x="41" y="333" width="238" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="0.25" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="24"/>
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -373,6 +382,7 @@
                         <outlet property="confirmPasswordField" destination="PWu-i0-J5L" id="jPk-u9-dmJ"/>
                         <outlet property="emailField" destination="8dI-UB-iWF" id="fjm-yu-OQY"/>
                         <outlet property="passwordField" destination="Qdw-Mf-Fq2" id="HK7-LB-0ZL"/>
+                        <outlet property="registerButton" destination="uxK-NP-SEy" id="vBE-67-I8P"/>
                         <segue destination="Ue7-Nu-A4E" kind="modal" identifier="SignUpSuccessful" id="MtW-wz-iic"/>
                     </connections>
                 </viewController>
@@ -428,6 +438,9 @@
                                         <state key="normal" title="Outfit Maker">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="vXZ-lx-hvc" kind="push" id="gJu-P1-4mb"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mannequin.png" translatesAutoresizingMaskIntoConstraints="NO" id="IYR-0m-sNK">
                                         <rect key="frame" x="244" y="31" width="56" height="53"/>
@@ -530,6 +543,7 @@
         <image name="female94.png" width="64" height="64"/>
         <image name="group.png" width="64" height="64"/>
         <image name="long35.png" width="64" height="64"/>
+        <image name="modafy-company-png8.png" width="960" height="640"/>
         <image name="pearls.png" width="64" height="64"/>
         <image name="plus33.png" width="64" height="64"/>
         <image name="refresh21.png" width="64" height="64"/>
@@ -545,7 +559,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="DWS-5w-3Zp"/>
         <segue reference="AyZ-LU-pXq"/>
+        <segue reference="DWS-5w-3Zp"/>
     </inferredMetricsTieBreakers>
 </document>
